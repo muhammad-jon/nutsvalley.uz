@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+Host: nutsvalley.uz
+Sitemap: https://www.nutsvalley.uz/sitemap.xml

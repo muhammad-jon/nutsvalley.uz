@@ -1,0 +1,222 @@
+/** @format */
+
+.row {
+  display: flex;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  max-width: 1920px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+
+  @for $i from 1 through 12 {
+    .col-sm-#{$i} {
+      width: #{100% / 12 * $i};
+    }
+  }
+
+  .justify-sm-center {
+    justify-content: center;
+  }
+
+  .justify-sm-between {
+    justify-content: space-between;
+  }
+
+  .justify-sm-around {
+    justify-content: space-around;
+  }
+
+  .align-sm-center {
+    align-items: center;
+  }
+
+  .flex-sm-column {
+    flex-direction: column;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  @for $i from 1 through 12 {
+    .col-md-#{$i} {
+      width: #{100% / 12 * $i};
+    }
+  }
+
+  .justify-md-center {
+    justify-content: center;
+  }
+
+  .justify-md-between {
+    justify-content: space-between;
+  }
+
+  .justify-md-around {
+    justify-content: space-around;
+  }
+
+  .align-md-center {
+    align-items: center;
+  }
+
+  .flex-md-column {
+    flex-direction: column;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  @for $i from 1 through 12 {
+    .col-lg-#{$i} {
+      width: #{100% / 12 * $i};
+    }
+  }
+
+  .justify-lg-center {
+    justify-content: center;
+  }
+
+  .justify-lg-between {
+    justify-content: space-between;
+  }
+
+  .justify-lg-around {
+    justify-content: space-around;
+  }
+
+  .align-lg-center {
+    align-items: center;
+  }
+
+  .flex-lg-column {
+    flex-direction: column;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  @for $i from 1 through 12 {
+    .col-xl-#{$i} {
+      width: #{100% / 12 * $i};
+    }
+  }
+
+  .justify-xl-center {
+    justify-content: center;
+  }
+
+  .justify-xl-between {
+    justify-content: space-between;
+  }
+
+  .justify-xl-around {
+    justify-content: space-around;
+  }
+
+  .align-xl-center {
+    align-items: center;
+  }
+
+  .flex-xl-column {
+    flex-direction: column;
+  }
+
+}
+
+@media only screen and (min-width: 1300px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  @for $i from 1 through 12 {
+    .col-xxl-#{$i} {
+      width: #{100% / 12 * $i};
+    }
+  }
+
+  .justify-xxl-center {
+    justify-content: center;
+  }
+
+  .justify-xxl-between {
+    justify-content: space-between;
+  }
+
+  .justify-xxl-around {
+    justify-content: space-around;
+  }
+
+  .align-xxl-center {
+    align-items: center;
+  }
+
+  .flex-xxl-column {
+    flex-direction: column;
+  }
+
+}
+
+.col-auto {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+  position: relative;
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    width: #{100% / 12 * $i};
+  }
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.display-flex {
+  display: flex;
+}
