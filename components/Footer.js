@@ -36,7 +36,7 @@ const Footer = ({ buttonUpCt, forErrorUp }) => {
                             <span className="ic ic__footer-facebook"></span>
                         </a>
                     </Link>
-                    <Link href="http://Instagram.com/nutsvalley.uz">
+                    <Link href="http://Instagram.com/Mtfood.uz">
                         <a className="footer__link">
                             <span className="ic ic__footer-instagram"></span>
                         </a>
