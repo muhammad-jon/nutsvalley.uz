@@ -103,7 +103,7 @@ const SocialMedias = () => {
                         </li>
                         <li className="social-media__item">
                             <a
-                                href="https://t.me/nutsvalleyuz"
+                                href="https://t.me/+998940340005"
                                 className="social-media__link"
                             >
                                 <Image

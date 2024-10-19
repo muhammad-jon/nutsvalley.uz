@@ -734,7 +734,7 @@ export const footerData = {
     en: {
         description:
             "We discuss delivery terms personally with each client. There are 2 options for cooperation: participation in a pool of wholesalers or an individual order of 10 tons or more.",
-        address: `"MT FOODSTUFF TRADING" LLC, “Orzu” small industrial zone, Davlatabad district, Namangan city, Republic of Uzbekistan, Postal code: 160139`,
+        address: `"MT FOODSTUFF TRADING" LLC`,
         callNumber: "+998940340005,",
         email: "info@mt-food.uz",
         producer:
@@ -742,8 +742,7 @@ export const footerData = {
     },
     ru: {
         description: "",
-        address: `ООО "MT FOODSTUFF TRADING", 160139,
-                 Республика Узбекистан, Наманганская область, Давлатабадский район, МПЗ «ОРЗУ»,`,
+        address: `ООО "MT FOODSTUFF TRADING"`,
         callNumber: "+998940340005,",
         email: "info@mt-food.uz",
         producer:
