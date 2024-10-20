@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+Host: mt-food.uz
+Sitemap: https://www.mt-food.uz/sitemap.xml

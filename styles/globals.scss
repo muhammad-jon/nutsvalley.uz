@@ -1,0 +1,16 @@
+// loader
+@import "./includes/loader.scss";
+
+@import "./includes/fonts.scss";
+@import "./includes/mixin.scss";
+@import "./includes/grid.scss";
+@import "./includes/roots.scss";
+@import "./includes/icons.scss";
+
+// pages start
+@import "./pages//single-page.scss";
+@import "./pages/home.scss";
+// pages end
+
+@import "./includes/code.scss";
+@import "./includes/media.scss";

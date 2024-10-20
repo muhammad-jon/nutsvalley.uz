@@ -1,0 +1,38 @@
+{
+  "name": "nuts-valley",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "html-react-parser": "^3.0.4",
+    "i18next": "^21.9.1",
+    "js-cookie": "^3.0.1",
+    "next": "12.1.0",
+    "next-i18next": "^12.0.0",
+    "next-seo": "^5.1.0",
+    "nodemailer": "^6.7.3",
+    "raphael": "^2.3.0",
+    "react": "17.0.2",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "17.0.2",
+    "react-gtm-module": "^2.0.11",
+    "react-hook-form": "^7.28.1",
+    "react-scroll": "^1.8.6",
+    "react-scrollspy": "^3.4.3",
+    "react-stickynode": "^4.0.0",
+    "sass": "^1.49.9",
+    "sharp": "^0.30.3",
+    "swiper": "^8.0.7",
+    "tawkto-react": "^3.0.1"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.2.8",
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0"
+  }
+}

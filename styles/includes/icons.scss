@@ -1,0 +1,171 @@
+/** @format */
+
+.ic {
+    display: inline-flex;
+
+    mask: {
+        repeat: no-repeat;
+        size: 100%;
+        position: center center;
+    }
+}
+
+.ic__call {
+    width: 32px;
+    height: 32px;
+    background-color: var(--green);
+    mask-image: url("/assets/icons/call-green.svg");
+}
+
+.ic__play {
+    width: 23px;
+    height: 23px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/play-icon.svg");
+}
+
+.ic__order {
+    width: 64px;
+    height: 64px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/order.svg");
+}
+
+.ic__purity {
+    width: 72px;
+    height: 62.12px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/purity.svg");
+}
+
+.ic__certificate {
+    width: 64px;
+    height: 55.47px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/certificate.svg");
+}
+
+.ic__price-list {
+    width: 58px;
+    height: 58px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/price-list.svg");
+}
+
+.ic__ask {
+    width: 64px;
+    height: 64px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/ask.svg");
+}
+
+.ic__ellipse {
+    width: 179px;
+    height: 134px;
+    background-color: var(--bright-green);
+    mask-image: url("/assets/icons/ellipse.svg");
+}
+
+.ic__arrow-left {
+    width: 24px;
+    height: 24px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/arrow-left.svg");
+}
+
+.ic__arrow-right {
+    width: 24px;
+    height: 24px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/arrow-right.svg");
+}
+
+.ic__quality-ellipse {
+    width: 72.91px;
+    height: 90px;
+    background-color: var(--bright-orange);
+    mask-image: url("/assets/icons/quality-ellipse.svg");
+}
+
+.ic__mail {
+    width: 16.23px;
+    height: 15.77px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/mail.svg");
+}
+
+.ic__phone {
+    width: 17.23px;
+    height: 17.82px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/phone.svg");
+}
+
+.ic__dropdown {
+    width: 13.98px;
+    height: 9.41px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/dropdown.svg");
+}
+
+.ic__footer-facebook {
+    width: 24px;
+    height: 24px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/footer-facebook.svg");
+}
+
+.ic__footer-instagram {
+    width: 24px;
+    height: 24px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/footer-instagram.svg");
+}
+
+.ic__footer-telegram {
+    width: 24px;
+    height: 24px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/footer-telegram.svg");
+}
+
+.ic__footer-youTube {
+    width: 24px;
+    height: 24px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/footer-youTube.svg");
+}
+
+.ic__subtract {
+    width: 28.64px;
+    height: 28.64px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/subtract.svg");
+}
+
+.ic__times {
+    width: 32px;
+    height: 32px;
+    background-color: var(--black);
+    mask-image: url("/assets/icons/times.png");
+}
+
+.ic__bars_icon {
+    width: 35px;
+    height: 35px;
+    background-color: var(--black);
+    mask-image: url("/assets/icons/bars_icon.svg");
+}
+
+.ic__arrow-top {
+    width: 32px;
+    height: 32px;
+    background-color: var(--white);
+    mask-image: url("/assets/icons/arrow-top.svg");
+}
+
+// .ic__ {
+//   width: 17px;
+//   background-color: var(--white);
+//   mask-image: url("/assets/icons/order.svg");
+// }

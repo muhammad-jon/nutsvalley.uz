@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../public/assets/fonts/Montserrat/Montserrat-Regular.ttf");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src:
+        url("../../public/assets/fonts/Montserrat/Montserrat-Medium.ttf");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src:
+        url("../../public/assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
+
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Abhaya Libre";
+    src:
+        url("../../public/assets/fonts/Abhaya_Libre/AbhayaLibre-Medium.ttf");
+
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Abhaya Libre";
+    src:
+        url("../../public/assets/fonts/Abhaya_Libre/AbhayaLibre-Regular.ttf");
+
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Abhaya Libre";
+    src:
+        url("../../public/assets/fonts/Abhaya_Libre/AbhayaLibre-SemiBold.ttf");
+
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Abhaya Libre";
+    src:
+        url("../../public/assets/fonts/Abhaya_Libre/AbhayaLibre-Bold.ttf");
+
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src:
+        url("../../public/assets/fonts/PT_Sans/PTSans-Bold.ttf");
+
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src:
+        url("../../public/assets/fonts/PT_Sans/PTSans-Regular.ttf");
+
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src:
+        url("../../public/assets/fonts/Poppins/Poppins-Bold.ttf");
+
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src:
+        url("../../public/assets/fonts/Poppins/Poppins-Medium.ttf");
+
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src:
+        url("../../public/assets/fonts/Poppins/Poppins-Regular.ttf");
+
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src:
+        url("../../public/assets/fonts/Poppins/Poppins-SemiBold.ttf");
+
+    font-weight: 600;
+    font-display: swap;
+}
+
+
+:root {
+    --font-sz-14: 0.875rem;
+    --font-sz-16: 1rem;
+    --font-sz-18: 1.125rem;
+    --font-sz-20: 1.25rem;
+    --font-sz-24: 1.5rem;
+    --font-sz-28: 1.75rem;
+    --font-sz-36: 2.25rem;
+    --font-sz-32: 2.25rem;
+    --font-sz-48: 3rem;
+    --font-sz-56: 3.5rem;
+    --font-wt-400: 400;
+    --font-wt-500: 500;
+    --font-wt-600: 600;
+    --font-wt-700: 700;
+    --line-height-17: 1.0625rem;
+    --line-height-19: 1.21875rem;
+    --line-height-21: 1.29375rem;
+    --line-height-28: 1.75rem;
+    --line-height-26: 1.625rem;
+    --line-height-31: 1.9375rem;
+    --line-height-32: 2rem;
+    --line-height-36: 2.25rem;
+    --line-height-42: 2.625rem;
+    --line-height-50: 3.125rem;
+    --line-height-60: 3.75rem;
+    --line-height-65: 4.0625rem;
+    --font-fy-montserrat: 'Montserrat';
+    --font-fy-abhaya: 'Abhaya Libre';
+    --font-fy-poppins: 'Poppins';
+    --font-fy-pt-sans: 'PT Sans';
+}

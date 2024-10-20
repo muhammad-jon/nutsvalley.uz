@@ -1,0 +1,512 @@
+{
+    "about": {
+        "aboutCards": [
+            {
+                "iconClassName": "ic__ask",
+                "title": "Who are we?",
+                "text": "Manufacturer and exporter of high-quality beans and peanuts from Uzbekistan."
+            },
+            {
+                "iconClassName": "ic__ask",
+                "title": "What do we do?",
+                "text": "Deliver select products to customers worldwide"
+            },
+            {
+                "iconClassName": "ic__ask",
+                "title": "How do we do it?",
+                "text": "Quickly, accurately, with quality, and guaranteed results"
+            }
+        ],
+        "descriptions": [
+            {
+                "text": "All founders of MT Foodstuff Trading have been involved in storing and preparing legumes for export for over 15 years."
+            },
+            {
+                "text": "We select the best from across the country - our products are sourced from 8 regions of Uzbekistan. We don't waste time - we always have up to 100 tonnes of products at hand."
+            },
+            {
+                "text": "We are ready to work long-term, compensate for any defects on our part, and discuss individual cooperation terms."
+            }
+        ],
+        "linkName": "Discuss your order for free",
+        "title": "Why choose us?"
+    },
+    "contact": {
+        "form": {
+            "callNumber": "Phone number:",
+            "email": "Email:",
+            "message": "Message",
+            "name": "Name",
+            "send": "Send",
+            "tel": "Phone number",
+            "themes": {
+                "list": [
+                    {
+                        "value": "General"
+                    },
+                    {
+                        "value": "Nuts"
+                    },
+                    {
+                        "value": "Dried fruits"
+                    },
+                    {
+                        "value": "Beans"
+                    }
+                ]
+            }
+        },
+        "title": "Any questions remaining?"
+    },
+    "delivery": {
+        "bottomText": "We comply with the terms of delivery",
+        "regions": [
+            {
+                "id": 1,
+                "content": "namangan",
+                "infos": {
+                    "regionInfo": {
+                        "title": "Namangan",
+                        "infosBox": [
+                            {
+                                "title": "Products",
+                                "text": "Peanuts, almonds, walnuts, Hungarian prunes, green mung beans"
+                            },
+                            {
+                                "title": "What do we do",
+                                "text": "Store, Prepare"
+                            },
+                            {
+                                "title": "Storage capacity",
+                                "text": "80 tons"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "content": "samarkand",
+                "infos": {
+                    "regionInfo": {
+                        "title": "Samarkand",
+                        "infosBox": [
+                            {
+                                "title": "Products",
+                                "text": "All kinds of raisins, Spanish prunes"
+                            },
+                            {
+                                "title": "What do we do",
+                                "text": "Produce"
+                            },
+                            {
+                                "title": "Storage capacity",
+                                "text": "20 tons per day"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "content": "syrdarya",
+                "infos": {
+                    "regionInfo": {
+                        "title": "Syrdarya",
+                        "infosBox": [
+                            {
+                                "title": "Products",
+                                "text": "Kidney beans, green mung beans"
+                            },
+                            {
+                                "title": "What do we do",
+                                "text": "Collect, prepare"
+                            },
+                            {
+                                "title": "Factory power",
+                                "text": "up to 20 tons per day"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "content": "ferghana",
+                "infos": {
+                    "regionInfo": {
+                        "title": "Ferghana",
+                        "infosBox": [
+                            {
+                                "title": "Products",
+                                "text": "Dried apricots, mung beans, compote mixture"
+                            },
+                            {
+                                "title": "What do we do",
+                                "text": "Collect, prepare"
+                            },
+                            {
+                                "title": "Factory power",
+                                "text": "up to 20 tons per day"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "content": "andijan",
+                "infos": {
+                    "regionInfo": {
+                        "title": "Andijan",
+                        "infosBox": [
+                            {
+                                "title": "Products",
+                                "text": "Dried apricots"
+                            },
+                            {
+                                "title": "What do we do",
+                                "text": "Collect, prepare"
+                            },
+                            {
+                                "title": "Factory power",
+                                "text": "up to 20 tons per day"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "content": "tashkent",
+                "infos": {
+                    "regionInfo": {
+                        "title": "Tashkent",
+                        "infosBox": [
+                            {
+                                "title": "Products",
+                                "text": "Sunflower seeds, green mung beans, kidney beans"
+                            },
+                            {
+                                "title": "What do we do",
+                                "text": "Store, prepare"
+                            },
+                            {
+                                "title": "Storage capacity",
+                                "text": "20 tons"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "content": "jizzakh",
+                "infos": {
+                    "regionInfo": {
+                        "title": "Jizzakh",
+                        "infosBox": [
+                            {
+                                "title": "Products",
+                                "text": "Chickpeas"
+                            },
+                            {
+                                "title": "What do we do",
+                                "text": "Collect, prepare"
+                            },
+                            {
+                                "title": "Factory power",
+                                "text": "up to 20 tons per day"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": 1,
+                "content": "surkhandarya",
+                "infos": {
+                    "regionInfo": {
+                        "title": "Surkhandarya",
+                        "infosBox": [
+                            {
+                                "title": "Products",
+                                "text": "Walnuts, kidney beans, peanuts"
+                            },
+                            {
+                                "title": "What do we do",
+                                "text": "Collect, prepare"
+                            },
+                            {
+                                "title": "Factory power",
+                                "text": "up to 5 tons per day (walnuts), the rest - up to 20 tons per day"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "text": "We gather products from across Uzbekistan, understand the specifics of each region, and help choose the right product for your needs.",
+        "title": "Where and how do we source?",
+        "tronsport": [
+            {
+                "text": "Ardena Transport - the most trusted company for maritime transportation with the best prices."
+            },
+            {
+                "text": "Allow Green Logistics - a company with its own trucks operating in the CIS."
+            },
+            {
+                "text": "Kreiss.lv - thanks to their numerous trucks, they efficiently deliver to Europe. "
+            },
+            {
+                "text": "Polar Star Logistics - with years of experience in air transportation, they offer the best prices."
+            }
+        ],
+        "tronsportTitle": "Transportation Partners",
+        "trusted": [
+            {
+                "text": "CSE - the most reliable company for sample delivery in the CIS."
+            },
+            {
+                "text": "DHL - a world-renowned service with whom we have an exclusive contract, providing significant discounts on services."
+            }
+        ],
+        "trustedText": "Trusted courier partners"
+    },
+    "faq": {
+        "accordion": [
+            {
+                "title": "Where are you ready to export?",
+                "content": "To Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Afghanistan, Russia, Mongolia, Ukraine, Poland, and Belarus.",
+                "id": 1,
+                "isActive": false
+            },
+            {
+                "title": "What is the minimum order quantity?",
+                "content": "The minimum order quantity is 20 tons.",
+                "id": 2,
+                "isActive": false
+            },
+            {
+                "title": "How is damage compensated in case of defects?",
+                "content": "Within 5 days after receiving the goods, you must send a letter of complaint to our e-mail. It is important to indicate in the letter all the actual evidence of the marriage on our part. If there is evidence, we will fully compensate for the damage with money or a new product.",
+                "id": 3,
+                "isActive": false
+            },
+            {
+                "title": "How can I make a payment?",
+                "content": "Only by bank transfer - or T /T or L/C at sight.",
+                "id": 4,
+                "isActive": false
+            }
+        ],
+        "text": "Most frequently asked questions",
+        "title": "FAQ",
+        "link": "Still have questions?"
+    },
+    "hero": {
+        "heroCards": [
+            {
+                "text": "Orders from <b>20</b> tons",
+                "iconClassName": "ic__order"
+            },
+            {
+                "text": "Price list for 20+ products",
+                "iconClassName": "ic__purity"
+            },
+            {
+                "text": "Moisture control",
+                "iconClassName": "ic__certificate"
+            },
+            {
+                "text": "Working with <b>FCA, DAP, CPT, FOB</b>",
+                "iconClassName": "ic__price-list"
+            }
+        ],
+        "heroForm": {
+            "email": "Email",
+            "name": "Your name",
+            "tel": "Phone number"
+        },
+        "heroFormSubmit": "Submit",
+        "heroFormText": "Our staff will contact you for a free consultation within 3 days",
+        "heroFormTitle": "Any questions? Leave your contacts",
+        "heroLink": "More about us",
+        "heroText": "Timely delivery considering all the wishes of the client",
+        "heroTitle": "Manufacturer and exporter of leguminous crops from Uzbekistan"
+    },
+    "nutsValley": {
+        "tabImages": [
+            {
+                "text": "Quantity in 100 grams",
+                "imageSrc": "/assets/images/tabs1.jpg"
+            },
+            {
+                "text": "Quantity in 100 grams",
+                "imageSrc": "/assets/images/tabs2.jpg"
+            },
+            {
+                "text": "Quantity in 100 grams",
+                "imageSrc": "/assets/images/tabs3.jpg"
+            },
+            {
+                "text": "Quantity in 100 grams",
+                "imageSrc": "/assets/images/tabs4.jpg"
+            },
+            {
+                "text": "Quantity in 100 grams",
+                "imageSrc": "/assets/images/tabs5.jpg"
+            },
+            {
+                "text": "Quantity in 100 grams",
+                "imageSrc": "/assets/images/tabs6.jpg"
+            }
+        ],
+        "tabs": [
+            {
+                "tabResult": [
+                    {
+                        "title": "We understand what is important",
+                        "text": "We know about all the nuances of working with products",
+                        "imageSrc": "/assets/images/nuts-valley_dried-fruits-Image.png",
+                        "rows": [
+                            {
+                                "title": "Quantity in 100 grams",
+                                "text": "We know exactly how many units of the product are in 100 grams of the product",
+                                "mark": false,
+                                "id": 1
+                            },
+                            {
+                                "title": "Euro standards of moisture",
+                                "text": "We guarantee compliance with the moisture level agreed with the client",
+                                "mark": false,
+                                "id": 2
+                            },
+                            {
+                                "title": "Two-stage cleaning",
+                                "text": "Often dried fruits contain small particles of sand and soil - with us, this may only occur in 2% of cases.",
+                                "mark": false,
+                                "id": 3
+                            },
+                            {
+                                "title": "Stable quality",
+                                "text": "Each time the quality of the product will remain unchanged. We can control this thanks to our strong presence in 8 regions of the country and the simplicity of raw material extraction",
+                                "mark": false,
+                                "id": 4
+                            }
+                        ]
+                    }
+                ],
+                "content": "dried-Fruits"
+            }
+        ],
+        "tabsBtns": [
+            {
+                "name": "Dried Fruits",
+                "content": "dried-Fruits"
+            },
+            {
+                "name": "Nuts",
+                "content": "nuts"
+            },
+            {
+                "name": "Legumes",
+                "content": "legumes"
+            }
+        ],
+        "text": "MT Foodstuff Trading - producer and exporter of legumes to all CIS countries: Kazakhstan, Kyrgyzstan, Azerbaijan (Baku), Tajikistan, Turkmenistan, Afghanistan, Russia, Ukraine, Poland, and Belarus.",
+        "title": "Natural production, timely delivery, compensation for defects"
+    },
+    "productsMetaSEO": {
+        "productsType": [
+            {
+                "content": "nuts",
+                "title": "Nuts wholesale export best prices from producer from Uzbekistan - mt-food.uz",
+                "description": "Nuts in assortment from Uzbekistan wholesale. A quality product with a guarantee. Delivery on time. Read more on the website",
+                "metas": [{}]
+            },
+            {
+                "content": "dried-fruits",
+                "title": "Dried fruits supply from Uzbek producer wholesale - mt-food.uz",
+                "description": "Dried fruits of high quality from Uzbekistan. Timely delivery. Product with a guarantee. The entire range can be viewed on the website.",
+                "metas": [{}]
+            },
+            {
+                "content": "beans",
+                "title": "Uzbek beans wholesale export company - mt-food.uz",
+                "description": "Legumes wholesale from the manufacturer in Uzbekistan. Fast delivery. Product with a guarantee. The entire range can be viewed on the website.",
+                "metas": [{}]
+            }
+        ]
+    },
+    "products": {
+        "productsRows": [
+            {
+                "title": "Purple speckled kidney beans",
+                "description": "",
+                "linkName": "Show catalog",
+                "imageSrc": "/assets/images/Purple-speckled-kidney-beans.png",
+                "path": "/products/nuts"
+            },
+
+            {
+                "title": "Red speckled beans",
+                "description": "",
+                "linkName": "Show catalog",
+                "imageSrc": "/assets/images/Red-speckled-beans.png",
+                "path": "/products/nuts"
+            },
+            {
+                "title": "Light speckled kidney beans (pinto)",
+                "description": "",
+                "linkName": "Show catalog",
+                "imageSrc": "/assets/images/Light-speckled-kidney-beans.png",
+                "path": "/products/nuts"
+            },
+            {
+                "title": "Black-eyed beans",
+                "description": "",
+                "linkName": "Show catalog",
+                "imageSrc": "/assets/images/Black-eyed-beans.png",
+                "path": "/products/nuts"
+            },
+            {
+                "title": "Red skirt beans",
+                "description": "",
+                "linkName": "Show catalog",
+                "imageSrc": "/assets/images/Red-skirt-beans.png",
+                "path": "/products/nuts"
+            },
+            {
+                "title": "Peanuts in shell",
+                "description": "",
+                "linkName": "Show catalog",
+                "imageSrc": "/assets/images/Peanuts-in-shell.png",
+                "path": "/products/nuts"
+            },
+            {
+                "title": "Peanut kernel",
+                "description": "",
+                "linkName": "Show catalog",
+                "imageSrc": "/assets/images/Peanut-kernel.png",
+                "path": "/products/nuts"
+            }
+        ],
+        "text": "We supply the best legumes in Uzbekistan. We find the calibre you need and control the moisture content.",
+        "title": "Our products"
+    },
+    "quality": {
+        "descriptions": [
+            {
+                "id": 1,
+                "text": "Everything goes according to plan - you always know exactly when your shipment set off, where it is now, and when it will arrive. Your peace of mind is important to us."
+            },
+            {
+                "id": 2,
+                "text": "The best - cheaper than anywhere else. We strive to offer the best prices on the market for the best quality goods."
+            }
+        ],
+        "text": "We prove that experience, attentiviness, standards and responsibility guarantee result.",
+        "title": "Qualities we are proud of"
+    }
+}
