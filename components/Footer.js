@@ -19,19 +19,15 @@ const Footer = ({ buttonUpCt, forErrorUp }) => {
                 <div className="footer-brand">
                     <Image
                         src="/assets/icons/footer-logo.svg"
-                        width={338}
-                        height={111}
+                        width={471}
+                        height={133}
                         layout="intrinsic"
                         alt="Brand Logo"
                         priority
                     />
                 </div>
-
-                {description && (
-                    <p className="footer__description">{description}</p>
-                )}
                 <div className="footer__links">
-                    <Link href="http://Facebook.com/nutsvalleyuz">
+                    <Link href="http://Facebook.com/Mtfooduz">
                         <a className="footer__link">
                             <span className="ic ic__footer-facebook"></span>
                         </a>
@@ -41,9 +37,14 @@ const Footer = ({ buttonUpCt, forErrorUp }) => {
                             <span className="ic ic__footer-instagram"></span>
                         </a>
                     </Link>
-                    <Link href="http://t.me/nutsvalleyuz">
+                    <Link href="http://t.me/+998940340005">
                         <a className="footer__link">
                             <span className="ic ic__footer-telegram"></span>
+                        </a>
+                    </Link>
+                    <Link href="http://youtube.com/Mtfooduz">
+                        <a className="footer__link">
+                            <span className="ic ic__footer-youTube"></span>
                         </a>
                     </Link>
                 </div>

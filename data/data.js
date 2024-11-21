@@ -5,21 +5,21 @@ export const productsMetaSEO = {
         productsType: [
             {
                 content: "nuts",
-                title: "Nuts wholesale export best prices from producer from Uzbekistan - NutsValley.uz",
+                title: "Nuts wholesale export best prices from producer from Uzbekistan - Mt-food.uz",
                 description:
                     "Nuts in assortment from Uzbekistan wholesale. A quality product with a guarantee. Delivery on time. Read more on the website",
                 metas: [{}],
             },
             {
                 content: "dried-fruits",
-                title: "Dried fruits supply from Uzbek producer wholesale - NutsValley.uz",
+                title: "Dried fruits supply from Uzbek producer wholesale - Mt-food.uz",
                 description:
                     "Dried fruits of high quality from Uzbekistan. Timely delivery. Product with a guarantee. The entire range can be viewed on the website.",
                 metas: [{}],
             },
             {
                 content: "beans",
-                title: "Uzbek beans wholesale export company - NutsValley.uz",
+                title: "Uzbek beans wholesale export company - Mt-food.uz",
                 description:
                     "Legumes wholesale from the manufacturer in Uzbekistan. Fast delivery. Product with a guarantee. The entire range can be viewed on the website.",
                 metas: [{}],
@@ -30,21 +30,21 @@ export const productsMetaSEO = {
         productsType: [
             {
                 content: "nuts",
-                title: "Орехи оптом экспорт от производителя оптом из Узбекистана - NutsValley.uz",
+                title: "Орехи оптом экспорт от производителя оптом из Узбекистана - Mt-food.uz",
                 description:
                     "Орехи в ассортименте из Узбекистана оптом. Качественный товар с гарантией. Доставка точно в срок. Подробнее на сайте",
                 metas: [{}],
             },
             {
                 content: "dried-fruits",
-                title: "Поставка сухофруктов от узбекского производителя оптом - NutsValley.uz",
+                title: "Поставка сухофруктов от узбекского производителя оптом - Mt-food.uz",
                 description:
                     "Сухофрукты высокого качества из Узбекистана. Своевременная доставка. Гарантия на продукцию. Весь ассортимент можно посмотреть на сайте",
                 metas: [{}],
             },
             {
                 content: "beans",
-                title: "Оптовая компания по экспорту узбекской фасоли - NutsValley.uz",
+                title: "Оптовая компания по экспорту узбекской фасоли - Mt-food.uz",
                 description:
                     "Бобовые оптом от производителя в Узбекистане. Быстрая доставка. Гарантия на продукцию. Весь ассортимент можно посмотреть на сайте",
                 metas: [{}],
@@ -58,13 +58,13 @@ export const homeMetaSEO = {
         description:
             "Nuts, dried fruits and legumes from Uzbekistan. A quality product with a guarantee. Delivery on time. You can order from our website",
         metas: [],
-        title: "Dried fruits, nuts and legumes reliable exporter from Uzbekistan - NutsValley.uz",
+        title: "Dried fruits, nuts and legumes reliable exporter from Uzbekistan - Mt-food.uz",
     },
     ru: {
         description:
             "Орехи, сухофрукты и бобовые из Узбекистана. Качественный товар с гарантией. Доставка точно в срок. Заказать можно у нас на сайте.",
         metas: [{}],
-        title: "Надёжный экспортер сухофруктов, орехов и бобовых культур Узбекистана - NutsValley.uz",
+        title: "Надёжный экспортер сухофруктов, орехов и бобовых культур Узбекистана - Mt-food.uz",
     },
 };
 
@@ -737,15 +737,13 @@ export const footerData = {
         address: `"MT FOODSTUFF TRADING" LLC`,
         callNumber: "+998940340005,",
         email: "info@mt-food.uz",
-        producer:
-            "© 2022 NutsValley. Peanut producer and worldwide exporter based in Uzbekistan.",
+        producer: "© 2022-2024 MT FOODSTUFF TRADING",
     },
     ru: {
         description: "",
         address: `ООО "MT FOODSTUFF TRADING"`,
         callNumber: "+998940340005,",
         email: "info@mt-food.uz",
-        producer:
-            "© 2022 NutsValley. Производитель и международный поставщик орехов из Узбекистана.",
+        producer: "© 2022-2024 MT FOODSTUFF TRADING",
     },
 };

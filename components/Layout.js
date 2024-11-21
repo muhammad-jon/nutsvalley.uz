@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
                 additionalLinkTags={[
                     {
                         rel: "shortcut icon",
-                        href: "/assets/icons/head-logo.svg",
+                        href: "/assets/images/head-logo.png",
                     },
                 ]}
             />

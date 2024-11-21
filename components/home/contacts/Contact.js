@@ -183,13 +183,13 @@ const Contact = () => {
                                     <span className="ic ic__phone"></span>
                                 </span>
                                 <div className="contact__call">
-                                    <span>{"contact.form.callNumber"}</span>
+                                    <span>{t("contact.form.callNumber")}</span>
 
                                     <a
                                         href="tel:+998940340005"
                                         className="contact__con"
                                     >
-                                         +99894 034 00 05
+                                        +99894 034 00 05
                                     </a>
                                 </div>
                             </div>
