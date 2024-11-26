@@ -73,6 +73,24 @@ const Contact = () => {
         }
     };
 
+    useEffect(() => {
+        if (contactSelectionRow && contactSelectionList) {
+            if (selectionControl) {
+                const height = Math.floor(
+                    contactSelectionList.current.getBoundingClientRect()
+                        .height + 2
+                );
+                const top = Math.floor(
+                    contactSelectionTitle.current.getBoundingClientRect().height
+                );
+                contactSelectionRow.current.style.height = height + "px";
+                contactSelectionRow.current.style.top = top + "px";
+            } else {
+                contactSelectionRow.current.style.height = 0;
+            }
+        }
+    });
+
     return (
         <section className="contact" id="contact">
             <div className="container">
@@ -96,27 +114,52 @@ const Contact = () => {
                                     })}
                                 />
                                 <input
-                                    type="email"
+                                    type="tel"
                                     className="contact-form__input"
-                                    placeholder={t("contact.form.email")}
-                                    {...register("email", {
+                                    placeholder={t("contact.form.tel")}
+                                    {...register("tel", {
                                         required: true,
                                         min: 6,
                                     })}
+                                    onKeyUp={phoneNumberControl.bind(this)}
                                 />
                             </div>
                             <div className="contact-form__bottom">
-                                <div className="contact-phone">
-                                    <input
-                                        type="tel"
-                                        className="contact-form__input"
-                                        placeholder={t("contact.form.tel")}
-                                        {...register("tel", {
-                                            required: true,
-                                            min: 6,
-                                        })}
-                                        onKeyUp={phoneNumberControl.bind(this)}
-                                    />
+                                <div className="contact-selection">
+                                    <div
+                                        className={`${
+                                            selectionControl
+                                                ? "contact-selection__title active"
+                                                : "contact-selection__title"
+                                        }`}
+                                        onClick={contactSelectionClick}
+                                        ref={contactSelectionTitle}
+                                    >
+                                        {itemValue}
+                                    </div>
+                                    <div
+                                        className="contact-selection__row"
+                                        ref={contactSelectionRow}
+                                    >
+                                        <div
+                                            className="contact-selection__list"
+                                            ref={contactSelectionList}
+                                        >
+                                            {themes?.list.map((item, i) => (
+                                                <div
+                                                    key={i}
+                                                    className="contact-selection__item"
+                                                    onClick={() =>
+                                                        selectionItemValue(
+                                                            item.value
+                                                        )
+                                                    }
+                                                >
+                                                    {item.value}
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
                                 </div>
                                 <textarea
                                     className="contact-form__textarea"
@@ -146,7 +189,7 @@ const Contact = () => {
                                         href="tel:+998940340005"
                                         className="contact__con"
                                     >
-                                        +998940340005
+                                        +99894 034 00 05
                                     </a>
                                 </div>
                             </div>

@@ -16,7 +16,7 @@ body {
 
     &::-webkit-scrollbar-thumb {
         height: 139px;
-        background: #da5d5d;
+        background: #DA5D5D;
         border-radius: 40.5px;
     }
 
@@ -38,6 +38,7 @@ body {
 button {
     outline: none;
 }
+
 
 .social-media {
     width: 119px;
@@ -61,11 +62,7 @@ button {
         height: 119px;
         @include flex_center_3();
         background-color: transparent;
-        background-image: radial-gradient(
-            #58b000 0,
-            #58b00020 53%,
-            #58b00015 100%
-        );
+        background-image: radial-gradient(#58B000 0, #58b00020 53%, #58B00015 100%);
         border: none;
         border-radius: var(--border-rs-50);
         cursor: pointer;
@@ -78,19 +75,21 @@ button {
             from {
                 width: 50px;
                 height: 50px;
+
             }
 
             to {
                 width: 119px;
                 height: 119px;
             }
+
         }
     }
 
     &__btn-bg {
         width: 50px;
         height: 50px;
-        background-color: #58b000;
+        background-color: #58B000;
         display: block;
         border-radius: var(--border-rs-50);
         position: relative;
@@ -158,9 +157,10 @@ button {
     }
 }
 
+
 .navbar {
     background-color: transparent;
-    box-shadow: 0px 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0px 0 0 rgba(0, 0, 0, 0.0);
     backdrop-filter: blur(0);
     padding: 21px 0;
     position: relative;
@@ -218,17 +218,16 @@ button {
 
     &.scroll-active {
         transform: translateY(0);
+
     }
 
     .container {
         @include flex_center_2();
         justify-content: space-between;
         background-color: transparent;
-        max-width: 90%;
     }
 
-    &__nav {
-    }
+    &__nav {}
 
     &__list {
         @include flex_center_2();
@@ -240,6 +239,7 @@ button {
         &:first-of-type {
             margin-left: 0;
         }
+
     }
 
     &__link {
@@ -256,7 +256,8 @@ button {
         @include transition_2();
 
         &.active {
-            border-bottom-color: var(--bright-orange);
+            border-bottom-color: var(--bright-red);
+
         }
     }
 
@@ -264,8 +265,7 @@ button {
         @include flex_center_2();
     }
 
-    &__languages {
-    }
+    &__languages {}
 
     &__language-mark {
         @include font_sz_14();
@@ -323,9 +323,11 @@ button {
         }
     }
 
+
     &__row {
         @include flex_center_2();
         justify-content: space-between;
+
     }
 
     &__call {
@@ -336,6 +338,7 @@ button {
     &__languages {
         margin-left: 30px;
         @include font_sz_14();
+
     }
 
     &__language {
@@ -368,6 +371,7 @@ button {
     // }
 }
 
+
 .footer {
     max-width: 1920px;
     width: 100%;
@@ -391,7 +395,7 @@ button {
     }
 
     .footer-brand {
-        max-width: 471px;
+        max-width: 338px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -457,6 +461,7 @@ button {
 
         &:first-of-type {
             margin-top: 66px;
+
         }
 
         &__by {
@@ -493,12 +498,12 @@ button {
     }
 
     &__title {
-        font-family: "Abhaya Libre";
+        font-family: 'Abhaya Libre';
         font-style: normal;
         font-weight: 700;
         font-size: 56px;
         line-height: 66px;
-        color: #0e1216;
+        color: #0E1216;
     }
 
     &__text {
@@ -506,7 +511,7 @@ button {
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
-        color: #0e1216;
+        color: #0E1216;
     }
 
     &__btn {
@@ -514,7 +519,7 @@ button {
         padding: 16px 38px;
         @include bg_bright_red();
         border-radius: 0px 20px;
-        font-family: "Poppins";
+        font-family: 'Poppins';
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
@@ -586,6 +591,7 @@ $bluebell: #979fd0;
     }
 }
 
+
 // .header,
 // .about,
 // .products,
@@ -621,8 +627,7 @@ $bluebell: #979fd0;
         text-align: center;
     }
 
-    &__image {
-    }
+    &__image {}
 
     &__title {
         max-width: 495px;
@@ -634,7 +639,7 @@ $bluebell: #979fd0;
         font-weight: var(--font-wt-700);
         font-size: var(font-sz-24);
         line-height: var(--line-height-36);
-        color: #0e1216;
+        color: #0E1216;
     }
 
     &__text {
@@ -664,6 +669,7 @@ $bluebell: #979fd0;
 
         &:hover {
             @include bg_bright_red_2();
+
         }
     }
 }
@@ -687,5 +693,5 @@ $bluebell: #979fd0;
     font-weight: 700;
     font-size: 56px;
     line-height: 66px;
-    color: #0e1216;
+    color: #0E1216;
 }

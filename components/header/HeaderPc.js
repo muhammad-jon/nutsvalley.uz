@@ -117,7 +117,7 @@ const HeaderPc = (props) => {
                     <span className="navbar__phone">
                         <span className="ic ic__call"></span>
                         <Link href="tel:+998940340005">
-                            <a>+998 94 034 00 05</a>
+                            <a> +99894 034 00 05</a>
                         </Link>
                     </span>
                 </div>

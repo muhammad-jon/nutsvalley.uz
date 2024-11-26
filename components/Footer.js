@@ -27,7 +27,7 @@ const Footer = ({ buttonUpCt, forErrorUp }) => {
                     />
                 </div>
                 <div className="footer__links">
-                    <Link href="http://Facebook.com/nutsvalleyuz">
+                    <Link href="http://Facebook.com/Mtfooduz">
                         <a className="footer__link">
                             <span className="ic ic__footer-facebook"></span>
                         </a>
@@ -42,7 +42,7 @@ const Footer = ({ buttonUpCt, forErrorUp }) => {
                             <span className="ic ic__footer-telegram"></span>
                         </a>
                     </Link>
-                    <Link href="http://youtube.com/nutsvalleyuz">
+                    <Link href="http://youtube.com/Mtfooduz">
                         <a className="footer__link">
                             <span className="ic ic__footer-youTube"></span>
                         </a>

@@ -8,7 +8,7 @@ const Header = (props) => {
     const [whichHeader, setWhichHeader] = useState(false);
 
     const navbarselct = () => {
-        if (window.innerWidth < 992) {
+        if (window.outerWidth < 992) {
             setWhichHeader(true);
         } else {
             setWhichHeader(false);

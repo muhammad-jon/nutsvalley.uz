@@ -9,7 +9,6 @@ const Faq = () => {
     const accordion = t("faq.accordion", { returnObjects: true });
     const title = t("faq.title");
     const text = t("faq.text");
-    const link = t("faq.link");
 
     const [accordionId, setAccordionId] = useState(1);
     const faqLeftRef = useRef(null);
@@ -65,11 +64,6 @@ const Faq = () => {
                                 />
                             ))}
                         </div>
-                        <div className="faq-links">
-                            <a className="faq-link" href="#contact">
-                                {link}
-                            </a>
-                        </div>
                     </div>
                     <div className="faq__right">
                         <Image
@@ -98,7 +92,6 @@ const Faq = () => {
                         objectFit="cover"
                         quality={100}
                         priority
-                        width={"100%"}
                     />
                 </div>
             </div>

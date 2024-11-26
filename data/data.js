@@ -5,21 +5,21 @@ export const productsMetaSEO = {
         productsType: [
             {
                 content: "nuts",
-                title: "Nuts wholesale export best prices from producer from Uzbekistan - mt-food.uz",
+                title: "Nuts wholesale export best prices from producer from Uzbekistan - Mt-food.uz",
                 description:
                     "Nuts in assortment from Uzbekistan wholesale. A quality product with a guarantee. Delivery on time. Read more on the website",
                 metas: [{}],
             },
             {
                 content: "dried-fruits",
-                title: "Dried fruits supply from Uzbek producer wholesale - mt-food.uz",
+                title: "Dried fruits supply from Uzbek producer wholesale - Mt-food.uz",
                 description:
                     "Dried fruits of high quality from Uzbekistan. Timely delivery. Product with a guarantee. The entire range can be viewed on the website.",
                 metas: [{}],
             },
             {
                 content: "beans",
-                title: "Uzbek beans wholesale export company - mt-food.uz",
+                title: "Uzbek beans wholesale export company - Mt-food.uz",
                 description:
                     "Legumes wholesale from the manufacturer in Uzbekistan. Fast delivery. Product with a guarantee. The entire range can be viewed on the website.",
                 metas: [{}],
@@ -30,21 +30,21 @@ export const productsMetaSEO = {
         productsType: [
             {
                 content: "nuts",
-                title: "Орехи оптом экспорт от производителя оптом из Узбекистана - mt-food.uz",
+                title: "Орехи оптом экспорт от производителя оптом из Узбекистана - Mt-food.uz",
                 description:
                     "Орехи в ассортименте из Узбекистана оптом. Качественный товар с гарантией. Доставка точно в срок. Подробнее на сайте",
                 metas: [{}],
             },
             {
                 content: "dried-fruits",
-                title: "Поставка сухофруктов от узбекского производителя оптом - mt-food.uz",
+                title: "Поставка сухофруктов от узбекского производителя оптом - Mt-food.uz",
                 description:
                     "Сухофрукты высокого качества из Узбекистана. Своевременная доставка. Гарантия на продукцию. Весь ассортимент можно посмотреть на сайте",
                 metas: [{}],
             },
             {
                 content: "beans",
-                title: "Оптовая компания по экспорту узбекской фасоли - mt-food.uz",
+                title: "Оптовая компания по экспорту узбекской фасоли - Mt-food.uz",
                 description:
                     "Бобовые оптом от производителя в Узбекистане. Быстрая доставка. Гарантия на продукцию. Весь ассортимент можно посмотреть на сайте",
                 metas: [{}],
@@ -56,15 +56,15 @@ export const productsMetaSEO = {
 export const homeMetaSEO = {
     en: {
         description:
-            "Peanut and legumes manufacturer from Uzbekistan. A quality product with a guarantee. Delivery on time. You can order from our website",
+            "Nuts, dried fruits and legumes from Uzbekistan. A quality product with a guarantee. Delivery on time. You can order from our website",
         metas: [],
-        title: "Peanut and legumes reliable exporter from Uzbekistan - mt-food.uz",
+        title: "Dried fruits, nuts and legumes reliable exporter from Uzbekistan - Mt-food.uz",
     },
     ru: {
         description:
-            "Производитель арахиса и бобовых культур из Узбекистана. Качественный товар с гарантией. Доставка точно в срок. Заказать можно у нас на сайте.",
+            "Орехи, сухофрукты и бобовые из Узбекистана. Качественный товар с гарантией. Доставка точно в срок. Заказать можно у нас на сайте.",
         metas: [{}],
-        title: "Надёжный экспортер арахиса и бобовых культур Узбекистана - mt-food.uz",
+        title: "Надёжный экспортер сухофруктов, орехов и бобовых культур Узбекистана - Mt-food.uz",
     },
 };
 
@@ -87,12 +87,12 @@ export const headerData = {
                 offset: -100,
             },
             {
-                link: "Frequently Asked Questions",
+                link: "FAQ",
                 path: "faq",
                 offset: -100,
             },
             {
-                link: "Contact us",
+                link: "Contacts",
                 path: "contact",
                 offset: -100,
             },
@@ -117,7 +117,7 @@ export const headerData = {
                 offset: -100,
             },
             {
-                link: "Часто задаваемые вопросы",
+                link: "ЧаВО",
                 path: "faq",
                 offset: -100,
             },
@@ -735,14 +735,14 @@ export const footerData = {
         description:
             "We discuss delivery terms personally with each client. There are 2 options for cooperation: participation in a pool of wholesalers or an individual order of 10 tons or more.",
         address: `"MT FOODSTUFF TRADING" LLC`,
-        callNumber: "+998 94 034 00 05,",
+        callNumber: "+998940340005,",
         email: "info@mt-food.uz",
         producer: "© 2022-2024 MT FOODSTUFF TRADING",
     },
     ru: {
         description: "",
-        address: `"MT FOODSTUFF TRADING" LLC`,
-        callNumber: "+998 94 034 00 05,",
+        address: `ООО "MT FOODSTUFF TRADING"`,
+        callNumber: "+998940340005,",
         email: "info@mt-food.uz",
         producer: "© 2022-2024 MT FOODSTUFF TRADING",
     },

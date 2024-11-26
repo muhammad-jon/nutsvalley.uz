@@ -19,6 +19,29 @@ const About = () => {
     return (
         <section className="about">
             <div className="container">
+                <div className="about__top" id="about-us">
+                    {t("about.aboutCards", { returnObjects: true })?.map(
+                        (item, i) => (
+                            <div
+                                className="about-card"
+                                data-aos="fade-left"
+                                data-aos-duration="2000"
+                                data-aos-delay={i === 0 ? 100 : 100 * (i + 3)}
+                                key={i}
+                            >
+                                <div className="about-card__header ic ic__ellipse">
+                                    <span
+                                        className={`ic ${item.iconClassName}`}
+                                    ></span>
+                                </div>
+                                <h3 className="about-card__title">
+                                    {item.title}
+                                </h3>
+                                <p className="about-card__text">{item.text}</p>
+                            </div>
+                        )
+                    )}
+                </div>
                 <div className="about__bottom" id="about">
                     <div className="about__left">
                         <div className="about__image" ref={lazyRoot}>
@@ -56,33 +79,8 @@ const About = () => {
                                 );
                             })}
                         </div>
-                        <a className="about__link" href="#contact">
-                            {t("about.linkName")}
-                        </a>
+                        <a className="about__link">{t("about.linkName")}</a>
                     </div>
-                </div>
-                <div className="about__top" id="about-us">
-                    {t("about.aboutCards", { returnObjects: true })?.map(
-                        (item, i) => (
-                            <div
-                                className="about-card"
-                                data-aos="fade-left"
-                                data-aos-duration="2000"
-                                data-aos-delay={i === 0 ? 100 : 100 * (i + 3)}
-                                key={i}
-                            >
-                                <div className="about-card__header ic ic__ellipse">
-                                    <span
-                                        className={`ic ${item.iconClassName}`}
-                                    ></span>
-                                </div>
-                                <h3 className="about-card__title">
-                                    {item.title}
-                                </h3>
-                                <p className="about-card__text">{item.text}</p>
-                            </div>
-                        )
-                    )}
                 </div>
             </div>
         </section>

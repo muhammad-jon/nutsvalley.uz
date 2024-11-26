@@ -9,13 +9,9 @@ const NutsValley = () => {
     const title = t("nutsValley.title");
     const text = t("nutsValley.text");
     const tabs = t("nutsValley.tabs", { returnObjects: true });
-    const tabImages = t("nutsValley.tabImages", { returnObjects: true });
-    console.log(tabImages);
-
     const tabsBtns = t("nutsValley.tabsBtns", { returnObjects: true });
 
     const [tabResultCont, setTabResultCont] = useState("dried-Fruits");
-    const [activeTab, setActiveTab] = useState(0);
 
     const [tabResults, setTabResults] = useState(tabs[0].tabResult);
 
@@ -47,7 +43,7 @@ const NutsValley = () => {
                     </div>
                 </div>
                 <div className="powerNuts__row justify-center">
-                    {/* <div className="tabs">
+                    <div className="tabs">
                         {tabsBtns?.map((item, i) => (
                             <button
                                 className={`${
@@ -63,7 +59,7 @@ const NutsValley = () => {
                                 {item.name}
                             </button>
                         ))}
-                    </div> */}
+                    </div>
                     <div className="row justify-lg-between tabs__result">
                         {tabResults.map((item, i) => {
                             const { imageSrc, rows = [] } = item;
@@ -71,30 +67,13 @@ const NutsValley = () => {
                                 <Fragment key={i}>
                                     <div className="tabs-images">
                                         <Image
-                                            src={tabImages[activeTab].imageSrc}
+                                            src={imageSrc}
                                             width={552}
                                             height={587}
                                             alt={item.title}
                                             layout="intrinsic"
                                             priority
                                         />
-                                        <div className="swiper">
-                                            <p>{tabImages[activeTab].text}</p>
-                                            <div className="swiper-pagination">
-                                                {tabImages.map((el, i) => (
-                                                    <div
-                                                        onClick={() =>
-                                                            setActiveTab(i)
-                                                        }
-                                                        key={i}
-                                                        className={`swiper-pagination-bullet ${
-                                                            i === activeTab &&
-                                                            "swiper-pagination-bullet-active"
-                                                        }`}
-                                                    ></div>
-                                                ))}
-                                            </div>
-                                        </div>
                                     </div>
                                     <section className="tabs-infos">
                                         <div className="tabs-infos__top">

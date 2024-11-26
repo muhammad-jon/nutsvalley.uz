@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
-Host: mt-food.uz
-Sitemap: https://www.mt-food.uz/sitemap.xml
+Host: nutsvalley.uz
+Sitemap: https://www.nutsvalley.uz/sitemap.xml

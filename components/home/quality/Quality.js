@@ -10,15 +10,14 @@ const Quality = () => {
     return (
         <section className="quality" id="quality">
             <div className="container">
-                <div className="row"></div>
-                <div className="row justify-lg-between">
+                <div className="row">
+                    <div className="col-12">
+                        <h2 className="quality__title">{t("quality.title")}</h2>
+                        <p className="quality__text">{t("quality.text")}</p>
+                    </div>
+                </div>
+                <div className="row align-lg-center justify-lg-between">
                     <div className="quality-descriptions">
-                        <div className="col-12">
-                            <h2 className="quality__title">
-                                {t("quality.title")}
-                            </h2>
-                            <p className="quality__text">{t("quality.text")}</p>
-                        </div>
                         {descriptions?.map((item) => (
                             <div className="quality-description" key={item.id}>
                                 <span className="quality-description__number">

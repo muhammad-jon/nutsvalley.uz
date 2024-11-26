@@ -3,29 +3,29 @@
         "aboutCards": [
             {
                 "iconClassName": "ic__ask",
-                "title": "Who are we?",
-                "text": "Manufacturer and exporter of high-quality beans and peanuts from Uzbekistan."
+                "title": "Who we are?",
+                "text": "Suppliers of nuts, dried fruits and legumes of the finest quality from Uzbekistan"
             },
             {
                 "iconClassName": "ic__ask",
-                "title": "What do we do?",
-                "text": "Deliver select products to customers worldwide"
+                "title": "What we do?",
+                "text": "We deliver selected products to customers all over the world"
             },
             {
                 "iconClassName": "ic__ask",
-                "title": "How do we do it?",
-                "text": "Quickly, accurately, with quality, and guaranteed results"
+                "title": "How we do it?",
+                "text": "Quickly, accurately, efficiently and with a guarantee of results"
             }
         ],
         "descriptions": [
             {
-                "text": "All founders of MT Foodstuff Trading have been involved in storing and preparing legumes for export for over 15 years."
+                "text": "MT FOODSTUFF TRADING is a reputable and dynamic company specializing in the supply of dried fruits, nuts, and legumes sourced from Uzbekistan."
             },
             {
-                "text": "We select the best from across the country - our products are sourced from 8 regions of Uzbekistan. We don't waste time - we always have up to 100 tonnes of products at hand."
+                "text": "Our founder brings a wealth of experience in exporting these products to various markets, including CIS countries, the Middle East, and the EU. This expertise equips us with the knowledge to effectively source our goods, ensuring we focus on quality, proper packaging, and safe delivery to our customers—all while maintaining competitive pricing."
             },
             {
-                "text": "We are ready to work long-term, compensate for any defects on our part, and discuss individual cooperation terms."
+                "text": "We firmly believe that honesty and sincerity are the cornerstones of lasting partnerships. Therefore, we collaborate with partners who share these values."
             }
         ],
         "linkName": "Discuss your order for free",
@@ -56,7 +56,7 @@
                 ]
             }
         },
-        "title": "Any questions remaining?"
+        "title": "Still have questions?"
     },
     "delivery": {
         "bottomText": "We comply with the terms of delivery",
@@ -246,68 +246,67 @@
                 }
             }
         ],
-        "text": "We gather products from across Uzbekistan, understand the specifics of each region, and help choose the right product for your needs.",
-        "title": "Where and how do we source?",
+        "text": "We collect products from all over Uzbekistan, we know the peculiarities of each region, we will help you choose a product for your task.",
+        "title": "From where and how do we deliver?",
         "tronsport": [
             {
-                "text": "Ardena Transport - the most trusted company for maritime transportation with the best prices."
+                "text": "Ardena Transport — the most trusted shipping company with the best prices."
             },
             {
-                "text": "Allow Green Logistics - a company with its own trucks operating in the CIS."
+                "text": "Allow Green Logistics — a company with its own trucks in the CIS."
             },
             {
-                "text": "Kreiss.lv - thanks to their numerous trucks, they efficiently deliver to Europe. "
+                "text": "Kreiss.lv — thanks to its own numerous trucks, it is profitable to deliver to Europe. "
             },
             {
-                "text": "Polar Star Logistics - with years of experience in air transportation, they offer the best prices."
+                "text": "Polar Star Logistics — have many years of experience in air transportation and provide the best prices."
             }
         ],
         "tronsportTitle": "Transportation Partners",
         "trusted": [
             {
-                "text": "CSE - the most reliable company for sample delivery in the CIS."
+                "text": "CSE — the most reliable office for sample delivery in the CIS."
             },
             {
-                "text": "DHL - a world-renowned service with whom we have an exclusive contract, providing significant discounts on services."
+                "text": "DHL — a world-famous service with which we have an exclusive contract that gives a significant discount on services."
             }
         ],
-        "trustedText": "Trusted courier partners"
+        "trustedText": "Trusted Delivery Partners"
     },
     "faq": {
         "accordion": [
             {
                 "title": "Where are you ready to export?",
-                "content": "To Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Afghanistan, Russia, Mongolia, Ukraine, Poland, and Belarus.",
+                "content": "To Kazakhstan, Kyrgyzstan, Azerbaijan (Baku), Tajikistan, Turkmenistan, Afghanistan, Russia, Mongolia, Ukraine, Poland and Belarus.",
                 "id": 1,
                 "isActive": false
             },
             {
                 "title": "What is the minimum order quantity?",
-                "content": "The minimum order quantity is 20 tons.",
+                "content": "The minimum order quantity is 18 tons.",
                 "id": 2,
                 "isActive": false
             },
             {
-                "title": "How is damage compensated in case of defects?",
+                "title": "How are damages reimbursed in the event of a marriage?",
                 "content": "Within 5 days after receiving the goods, you must send a letter of complaint to our e-mail. It is important to indicate in the letter all the actual evidence of the marriage on our part. If there is evidence, we will fully compensate for the damage with money or a new product.",
                 "id": 3,
                 "isActive": false
             },
             {
-                "title": "How can I make a payment?",
+                "title": "How can I pay? ",
                 "content": "Only by bank transfer - or T /T or L/C at sight.",
                 "id": 4,
                 "isActive": false
             }
         ],
         "text": "Most frequently asked questions",
-        "title": "FAQ",
-        "link": "Still have questions?"
+        "title": "FAQ"
     },
     "hero": {
         "heroCards": [
             {
-                "text": "Orders from <b>20</b> tons",
+                "text": "Orders from <b>18</b> tons",
                 "iconClassName": "ic__order"
             },
             {
@@ -315,7 +314,7 @@
                 "iconClassName": "ic__purity"
             },
             {
-                "text": "Moisture control",
+                "text": "Humidity control",
                 "iconClassName": "ic__certificate"
             },
             {
@@ -333,35 +332,9 @@
         "heroFormTitle": "Any questions? Leave your contacts",
         "heroLink": "More about us",
         "heroText": "Timely delivery considering all the wishes of the client",
-        "heroTitle": "Manufacturer and exporter of leguminous crops from Uzbekistan"
+        "heroTitle": "Nuts, dried fruits and legumes of the finest quality from Uzbekistan"
     },
     "nutsValley": {
-        "tabImages": [
-            {
-                "text": "Quantity in 100 grams",
-                "imageSrc": "/assets/images/tabs1.jpg"
-            },
-            {
-                "text": "Quantity in 100 grams",
-                "imageSrc": "/assets/images/tabs2.jpg"
-            },
-            {
-                "text": "Quantity in 100 grams",
-                "imageSrc": "/assets/images/tabs3.jpg"
-            },
-            {
-                "text": "Quantity in 100 grams",
-                "imageSrc": "/assets/images/tabs4.jpg"
-            },
-            {
-                "text": "Quantity in 100 grams",
-                "imageSrc": "/assets/images/tabs5.jpg"
-            },
-            {
-                "text": "Quantity in 100 grams",
-                "imageSrc": "/assets/images/tabs6.jpg"
-            }
-        ],
         "tabs": [
             {
                 "tabResult": [
@@ -372,32 +345,104 @@
                         "rows": [
                             {
                                 "title": "Quantity in 100 grams",
-                                "text": "We know exactly how many units of the product are in 100 grams of the product",
+                                "text": "We know exactly how many units of goods are in 100 grams of products",
                                 "mark": false,
                                 "id": 1
                             },
                             {
-                                "title": "Euro standards of moisture",
-                                "text": "We guarantee compliance with the moisture level agreed with the client",
+                                "title": "European humidity standards",
+                                "text": "We guarantee compliance with the humidity agreed with the client",
                                 "mark": false,
                                 "id": 2
                             },
                             {
-                                "title": "Two-stage cleaning",
-                                "text": "Often dried fruits contain small particles of sand and soil - with us, this may only occur in 2% of cases.",
+                                "title": "Two stages of cleaning",
+                                "text": "Dried fruits often have small particles of sand and dirt - in our products this can occur only in 2% of cases.",
                                 "mark": false,
                                 "id": 3
                             },
                             {
+                                "title": "Mandatory fumigation",
+                                "text": "We clean the products either before shipping in a special zone, or after loading in a car",
+                                "mark": false,
+                                "id": 4
+                            },
+                            {
                                 "title": "Stable quality",
-                                "text": "Each time the quality of the product will remain unchanged. We can control this thanks to our strong presence in 8 regions of the country and the simplicity of raw material extraction",
+                                "text": "Each time the quality of the product will remain unchanged. We can control this thanks to our confident positions in 8 regions of the country and the ease of extraction of raw materials",
+                                "mark": false,
+                                "id": 5
+                            }
+                        ]
+                    }
+                ],
+                "content": "dried-Fruits"
+            },
+            {
+                "tabResult": [
+                    {
+                        "title": "We understand what is important",
+                        "text": "We know about all the nuances of working with products",
+                        "imageSrc": "/assets/images/nuts-valley_nuts-Image.png",
+                        "rows": [
+                            {
+                                "title": "Separate container for each type",
+                                "text": "Nuts are a very fragile commodity, so we select a special container for each type",
+                                "mark": false,
+                                "id": 1
+                            },
+                            {
+                                "title": "Humidity control",
+                                "text": "The increased humidity of nuts is a serious drawback, so we have several stages of humidity control",
+                                "mark": false,
+                                "id": 2
+                            },
+                            {
+                                "title": "Automatic sorting",
+                                "text": "Manual recheck and additional peeling on the inspection tables.",
+                                "mark": false,
+                                "id": 3
+                            },
+                            {
+                                "title": "Drying, grading and packaging",
+                                "text": "To ensure the desired caliber, we sort the goods on the line according to templates",
                                 "mark": false,
                                 "id": 4
                             }
                         ]
                     }
                 ],
-                "content": "dried-Fruits"
+                "content": "nuts"
+            },
+            {
+                "tabResult": [
+                    {
+                        "title": "We understand what is important",
+                        "text": "We know about all the nuances of working with products",
+                        "imageSrc": "/assets/images/nuts-valley_beans-Image.png",
+                        "rows": [
+                            {
+                                "title": "Quantity in 100 grams",
+                                "text": "We know exactly how many units of goods are in 100 grams of products",
+                                "mark": false,
+                                "id": 1
+                            },
+                            {
+                                "title": "Humidity control",
+                                "text": "The increased humidity of nuts is a serious drawback, so we have several stages of humidity control",
+                                "mark": false,
+                                "id": 2
+                            },
+                            {
+                                "title": "Careful cleaning",
+                                "text": "Depending on the type of product, we clean manually or automatically",
+                                "mark": false,
+                                "id": 3
+                            }
+                        ]
+                    }
+                ],
+                "content": "legumes"
             }
         ],
         "tabsBtns": [
@@ -414,26 +459,26 @@
                 "content": "legumes"
             }
         ],
-        "text": "MT Foodstuff Trading - producer and exporter of legumes to all CIS countries: Kazakhstan, Kyrgyzstan, Azerbaijan (Baku), Tajikistan, Turkmenistan, Afghanistan, Russia, Ukraine, Poland, and Belarus.",
+        "text": "MT FOODSTUFF TRADING is an experienced exporter of nuts, dried fruits, and legumes to all CIS countries: Kazakhstan, Kyrgyzstan, Azerbaijan, Tajikistan, Turkmenistan, Afghanistan, Russia, Mongolia, Ukraine, Poland, and Belarus.",
         "title": "Natural production, timely delivery, compensation for defects"
     },
     "productsMetaSEO": {
         "productsType": [
             {
                 "content": "nuts",
-                "title": "Nuts wholesale export best prices from producer from Uzbekistan - mt-food.uz",
+                "title": "Nuts wholesale export best prices from producer from Uzbekistan - Mt-food.uz",
                 "description": "Nuts in assortment from Uzbekistan wholesale. A quality product with a guarantee. Delivery on time. Read more on the website",
                 "metas": [{}]
             },
             {
                 "content": "dried-fruits",
-                "title": "Dried fruits supply from Uzbek producer wholesale - mt-food.uz",
+                "title": "Dried fruits supply from Uzbek producer wholesale - Mt-food.uz",
                 "description": "Dried fruits of high quality from Uzbekistan. Timely delivery. Product with a guarantee. The entire range can be viewed on the website.",
                 "metas": [{}]
             },
             {
                 "content": "beans",
-                "title": "Uzbek beans wholesale export company - mt-food.uz",
+                "title": "Uzbek beans wholesale export company - Mt-food.uz",
                 "description": "Legumes wholesale from the manufacturer in Uzbekistan. Fast delivery. Product with a guarantee. The entire range can be viewed on the website.",
                 "metas": [{}]
             }
@@ -442,71 +487,42 @@
     "products": {
         "productsRows": [
             {
-                "title": "Purple speckled kidney beans",
-                "description": "",
+                "title": "Nuts",
+                "description": "We got peanuts in the shell and without it, sugar peanuts and sesame, almonds and walnuts.",
                 "linkName": "Show catalog",
-                "imageSrc": "/assets/images/Purple-speckled-kidney-beans.png",
-                "path": "/products/nuts"
-            },
-
-            {
-                "title": "Red speckled beans",
-                "description": "",
-                "linkName": "Show catalog",
-                "imageSrc": "/assets/images/Red-speckled-beans.png",
+                "imageSrc": "/assets/images/Nuts-Image.png",
                 "path": "/products/nuts"
             },
             {
-                "title": "Light speckled kidney beans (pinto)",
-                "description": "",
+                "title": "Dried fruits",
+                "description": "We offer yellow, black and brown raisins, various types of prunes and dried apricots, as well as compote mixes.",
                 "linkName": "Show catalog",
-                "imageSrc": "/assets/images/Light-speckled-kidney-beans.png",
-                "path": "/products/nuts"
+                "imageSrc": "/assets/images/Dried-fruits-Image.png",
+                "path": "/products/dried-fruits"
             },
             {
-                "title": "Black-eyed beans",
-                "description": "",
+                "title": "Beans",
+                "description": "Popular varieties of mung beans, chickpeas and kidney beans in Uzbekistan",
                 "linkName": "Show catalog",
-                "imageSrc": "/assets/images/Black-eyed-beans.png",
-                "path": "/products/nuts"
-            },
-            {
-                "title": "Red skirt beans",
-                "description": "",
-                "linkName": "Show catalog",
-                "imageSrc": "/assets/images/Red-skirt-beans.png",
-                "path": "/products/nuts"
-            },
-            {
-                "title": "Peanuts in shell",
-                "description": "",
-                "linkName": "Show catalog",
-                "imageSrc": "/assets/images/Peanuts-in-shell.png",
-                "path": "/products/nuts"
-            },
-            {
-                "title": "Peanut kernel",
-                "description": "",
-                "linkName": "Show catalog",
-                "imageSrc": "/assets/images/Peanut-kernel.png",
-                "path": "/products/nuts"
+                "imageSrc": "/assets/images/Beans-Image.png",
+                "path": "/products/beans"
             }
         ],
-        "text": "We supply the best legumes in Uzbekistan. We find the calibre you need and control the moisture content.",
-        "title": "Our products"
+        "text": "We supply the best nuts, dried fruits and legumes in Uzbekistan. We find the caliber you need and control the humidity.",
+        "title": "Our Products"
     },
     "quality": {
         "descriptions": [
             {
                 "id": 1,
-                "text": "Everything goes according to plan - you always know exactly when your shipment set off, where it is now, and when it will arrive. Your peace of mind is important to us."
+                "text": "Everything is according to plan — you always know exactly when your cargo has set off, where it is now and when it will arrive. Your peace of mind is important to us."
             },
             {
                 "id": 2,
-                "text": "The best - cheaper than anywhere else. We strive to offer the best prices on the market for the best quality goods."
+                "text": "The best quality — cheaper than everywhere else. We strive to offer the best prices on the market for the finest quality goods."
             }
         ],
-        "text": "We prove that experience, attentiviness, standards and responsibility guarantee result.",
+        "text": "We prove that experience, care, standards and responsibility guarantee the result.",
         "title": "Qualities we are proud of"
     }
 }

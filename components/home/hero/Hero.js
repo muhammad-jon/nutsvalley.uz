@@ -70,7 +70,7 @@ const Hero = () => {
                             <div className="hero__links">
                                 <AnchorLink
                                     className="hero__link"
-                                    to="about"
+                                    to="about-us"
                                     offset={-150}
                                 >
                                     {t("hero.heroLink")}
@@ -96,7 +96,43 @@ const Hero = () => {
                     </div>
                 </div>
             </section>
-
+            <form className="hero-form" onSubmit={handleSubmit(formHandel)}>
+                <h3 className="hero-form__title">
+                    {t("hero.heroFormTitle")} <span>*</span>
+                </h3>
+                <div className="hero-form__inputs">
+                    <input
+                        type="text"
+                        className="hero-form__input"
+                        placeholder={t("hero.heroForm.name")}
+                        {...register("name", { required: true, min: 3 })}
+                    />
+                    <input
+                        type="tel"
+                        className="hero-form__input"
+                        placeholder={t("hero.heroForm.tel")}
+                        {...register("tel")}
+                        onKeyUp={phoneNumberControl.bind(this)}
+                    />
+                    <input
+                        type="email"
+                        className="hero-form__input"
+                        placeholder={t("hero.heroForm.email")}
+                        {...register("email", {
+                            required: true,
+                            min: 6,
+                        })}
+                    />
+                    <input
+                        type="submit"
+                        className="hero-form__input"
+                        value={t("hero.heroFormSubmit")}
+                    />
+                </div>
+                <p className="hero-form__text">
+                    <span>*</span> {t("hero.heroFormText")}
+                </p>
+            </form>
             <div className="header__bg">
                 <div
                     style={{

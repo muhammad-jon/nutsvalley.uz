@@ -10,6 +10,7 @@
     }
 }
 
+
 .ic__call {
     width: 32px;
     height: 32px;
@@ -62,7 +63,7 @@
 .ic__ellipse {
     width: 179px;
     height: 134px;
-    background-color: var(--bright-green);
+    background-color: var(--bright-red);
     mask-image: url("/assets/icons/ellipse.svg");
 }
 
@@ -83,7 +84,7 @@
 .ic__quality-ellipse {
     width: 72.91px;
     height: 90px;
-    background-color: var(--bright-orange);
+    background-color: var(--bright-red);
     mask-image: url("/assets/icons/quality-ellipse.svg");
 }
 
@@ -133,7 +134,7 @@
     width: 24px;
     height: 24px;
     background-color: var(--white);
-    mask-image: url("/assets/icons/footer-youTube.svg");
+    mask-image: url("/assets/icons/footer-youTube .svg");
 }
 
 .ic__subtract {

@@ -11,12 +11,13 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .products-row {
-        max-height: 344px;
+        max-height: 442px;
         height: 100%;
+        padding-right: 110px;
 
         &__right {
             width: unset;
@@ -50,19 +51,25 @@
     .powerNuts {
         .tabs-infos {
             margin-left: 25px;
+
         }
     }
 
     .delivery {
         &-someinfo {
             margin-left: 25px;
+
         }
     }
+
 
     .contact-image {
         margin-left: 25px;
     }
+
 }
+
+
 
 @media only screen and (max-width: 1199px) {
     .about__bottom {
@@ -70,6 +77,7 @@
     }
 
     .powerNuts {
+
         .tabs-infos {
             margin: 0;
             max-width: 552px;
@@ -142,6 +150,7 @@
 
         .row {
             flex-direction: column;
+
         }
     }
 
@@ -154,13 +163,6 @@
 
         &__right {
             margin-bottom: 30px;
-        }
-    }
-    .products {
-        &__list {
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
         }
     }
 
@@ -176,6 +178,7 @@
         &-geography {
             margin-left: auto;
             margin-right: auto;
+
 
             &__title,
             &__text {
@@ -214,9 +217,10 @@
                     margin-right: auto;
                 }
 
-                .delivery-geography__bottom + div {
+                .delivery-geography__bottom+div {
                     margin-top: 60px;
                 }
+
             }
         }
     }
@@ -228,7 +232,7 @@
     }
 
     :root {
-        --border-rs-8: 8px;
+        --border-rs-30: 0 15px;
     }
 
     .about__bottom {
@@ -279,6 +283,7 @@
     }
 
     .quality {
+
         &__title {
             text-align: center;
         }
@@ -292,7 +297,6 @@
 
         .row {
             &:last-of-type {
-                margin-top: 70px;
                 flex-direction: column;
                 align-items: center;
             }
@@ -308,7 +312,7 @@
     }
 
     .hero__link {
-        padding: 16.5px 52px;
+        padding: 15px 30px;
     }
 
     .hero-form {
@@ -335,20 +339,16 @@
     }
 
     .products {
+
         &__title {
             text-align: center;
+
         }
 
         &__text {
             text-align: center;
             margin-left: auto;
             margin-right: auto;
-        }
-
-        &__list {
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
         }
     }
 
@@ -359,6 +359,7 @@
     .products-row__link {
         padding: 10px 30px;
     }
+
 
     .powerNuts {
         &__title {
@@ -373,7 +374,9 @@
             max-width: 400px;
         }
 
+
         .tabs-infos {
+
             &__title,
             &__text {
                 text-align: center;
@@ -411,13 +414,14 @@
 
     .footer {
         .footer-brand {
-            max-width: 300px;
+            max-width: 200px;
         }
     }
 
     .social-medias {
         right: 80.5px;
         bottom: 40px;
+
     }
 
     .social-media {
@@ -428,9 +432,13 @@
     .delivery {
         padding-bottom: 0;
     }
+
+
 }
 
+
 @media only screen and (max-width: 767px) {
+
     .hero__title,
     .about__title,
     .products__title,
@@ -519,6 +527,7 @@
         margin-top: 20px;
     }
 
+
     .contact-form__bottom {
         display: flex;
         flex-direction: column;
@@ -561,6 +570,7 @@
     .social-medias {
         right: 16.5px;
         bottom: 21px;
+
     }
 
     .social-media {
@@ -593,11 +603,13 @@
 
         &::-webkit-scrollbar-thumb {
             height: 0;
+
         }
 
         span {
             margin-left: 20px;
         }
+
     }
 
     .delivery-infos__ellipse {
@@ -605,6 +617,7 @@
         top: 193px;
     }
 }
+
 
 @media only screen and (max-width: 575px) {
     html {
@@ -638,6 +651,7 @@
 
     .hero-form__inputs {
         grid-template-columns: 300px;
+
     }
 
     .hero-form {
@@ -704,6 +718,7 @@
 
     .delivery-geography__map {
         .init-map {
+
             #namangan,
             #samarkand,
             #syrdarya,
@@ -716,11 +731,13 @@
                     fill: var(--white);
                     stroke: #42b675;
                 }
+
             }
 
-            #tashkent.active + #close_to {
+            #tashkent.active+#close_to {
                 fill: var(--white);
                 stroke: var(--white);
+
             }
         }
     }
@@ -745,13 +762,6 @@
         display: grid;
         grid-template-columns: auto;
         row-gap: 20px;
-    }
-    .products {
-        &__list {
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-        }
     }
 }
 

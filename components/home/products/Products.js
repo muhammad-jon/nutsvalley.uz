@@ -24,33 +24,113 @@ function Products() {
                             <h2 className="products__title">{title}</h2>
                             <p className="products__text">{text}</p>
                         </div>
-                        <div className="products__list">
-                            {productsRows?.map((item, i) => {
+                        {productsRows?.map((item, i) => {
+                            if (i === 0) {
                                 return (
-                                    <Link key={i} href={item.path}>
-                                        <a onClick={rememberedScroll}>
-                                            <section className="products-row">
-                                                <div className="products-row__image">
-                                                    <Image
-                                                        src={item.imageSrc}
-                                                        width="190"
-                                                        height="190"
-                                                        alt={item.title}
-                                                        layout="intrinsic"
-                                                        priority
-                                                    />
-                                                </div>
-                                                <div className="products-row__text">
-                                                    <p className="products-row__title">
-                                                        {item.title}
-                                                    </p>
-                                                </div>
-                                            </section>
-                                        </a>
-                                    </Link>
+                                    <section
+                                        className="col-12 products-row"
+                                        key={i}
+                                    >
+                                        <div className="products-row__left">
+                                            <h3 className="products-row__title">
+                                                {item.title}
+                                            </h3>
+                                            <p className="products-row__description">
+                                                {item.description}
+                                            </p>
+                                            <Link href={item.path}>
+                                                <a
+                                                    className="products-row__link"
+                                                    onClick={rememberedScroll}
+                                                >
+                                                    {item.linkName}
+                                                </a>
+                                            </Link>
+                                        </div>
+                                        <div className="products-row__right">
+                                            <Image
+                                                src={item.imageSrc}
+                                                width="504"
+                                                height="319"
+                                                alt={item.title}
+                                                layout="intrinsic"
+                                                priority
+                                            />
+                                        </div>
+                                    </section>
                                 );
-                            })}
-                        </div>
+                            }
+                            if (i === 1) {
+                                return (
+                                    <section
+                                        className="col-12 products-row"
+                                        key={i}
+                                    >
+                                        <div className="products-row__left">
+                                            <h3 className="products-row__title">
+                                                {item.title}
+                                            </h3>
+                                            <p className="products-row__description">
+                                                {item.description}
+                                            </p>
+                                            <Link href={item.path}>
+                                                <a
+                                                    className="products-row__link"
+                                                    onClick={rememberedScroll}
+                                                >
+                                                    {item.linkName}
+                                                </a>
+                                            </Link>
+                                        </div>
+                                        <div className="products-row__right">
+                                            <Image
+                                                src={item.imageSrc}
+                                                width="494"
+                                                height="272"
+                                                alt={item.title}
+                                                layout="intrinsic"
+                                                priority
+                                            />
+                                        </div>
+                                    </section>
+                                );
+                            }
+                            if (i === 2) {
+                                return (
+                                    <section
+                                        className="col-12 products-row"
+                                        key={i}
+                                    >
+                                        <div className="products-row__left">
+                                            <h3 className="products-row__title">
+                                                {item.title}
+                                            </h3>
+                                            <p className="products-row__description">
+                                                {item.description}
+                                            </p>
+                                            <Link href={item.path}>
+                                                <a
+                                                    className="products-row__link"
+                                                    onClick={rememberedScroll}
+                                                >
+                                                    {item.linkName}
+                                                </a>
+                                            </Link>
+                                        </div>
+                                        <div className="products-row__right">
+                                            <Image
+                                                src={item.imageSrc}
+                                                width="503"
+                                                height="304"
+                                                alt={item.title}
+                                                layout="intrinsic"
+                                                priority
+                                            />
+                                        </div>
+                                    </section>
+                                );
+                            }
+                        })}
                     </div>
                 </div>
                 <div className="products__bg">

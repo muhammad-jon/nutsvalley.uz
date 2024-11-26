@@ -19,11 +19,11 @@
 }
 
 @mixin bg_bright_red {
-    background-color: var(--bright-orange);
+    background-color: var(--bright-red);
 }
 
 @mixin bg_bright_red_2 {
-    background-color: var(--bright-orange-2);
+    background-color: var(--bright-red-2);
 }
 
 @mixin white {
@@ -57,6 +57,7 @@
     justify-content: center;
     align-items: center;
 }
+
 
 @mixin column_1 {
     flex-direction: column;
@@ -180,7 +181,7 @@
 }
 
 @mixin border_rs_30 {
-    border-radius: var(--border-rs-8);
+    border-radius: var(--border-rs-30);
 }
 
 @mixin border_rs_10 {
