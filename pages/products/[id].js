@@ -58,7 +58,7 @@ function Index({
                                 {goBackBtnName}
                             </a>
                         </Link>
-                        <h2 className="products-page__title">{pageTitle}</h2>
+                        <h1 className="products-page__title">{pageTitle}</h1>
                         <p className="products-page__link">
                             <Link href="/">
                                 <a className="products-page__link">
