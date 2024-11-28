@@ -301,7 +301,8 @@
             }
         ],
         "text": "Most frequently asked questions",
-        "title": "FAQ"
+        "title": "FAQ",
+        "faqLink": "Knowledge corner"
     },
     "hero": {
         "heroCards": [

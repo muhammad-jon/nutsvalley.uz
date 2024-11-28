@@ -57,7 +57,7 @@ export const homeMetaSEO = {
     en: {
         description:
             "Nuts, dried fruits and legumes from Uzbekistan. A quality product with a guarantee. Delivery on time. You can order from our website",
-        metas: [],
+        metas: [{}],
         title: "Dried fruits, nuts and legumes reliable exporter from Uzbekistan - Mt-food.uz",
     },
     ru: {
@@ -686,11 +686,35 @@ export const productsData = {
     },
 };
 
+export const knowledgeCornerMetaSEO = {
+    en: {
+        title: "Dried Fruits Export Uzbekistan | Organic Nuts & Legumes Supplier",
+        description:
+            "Export premium dried fruits, organic nuts, and legumes from Uzbekistan. Safe GMO-free products with reliable global delivery.",
+        keywords: [
+            "dried fruits export, organic nuts supplier, Uzbekistan farming, GMO-free products, legumes export",
+        ],
+        metas: [{}],
+    },
+    ru: {
+        title: "Экспорт сухофруктов Узбекистан | Поставщик органических орехов и бобовых",
+        description:
+            "Экспорт сухофруктов, органических орехов и бобовых из Узбекистана. Безопасные продукты без ГМО с доставкой по всему миру.",
+        keywords: [
+            "экспорт сухофруктов, поставщик орехов, Узбекистан сельское хозяйство, продукты без ГМО, экспорт бобовых",
+        ],
+        metas: [{}],
+    },
+};
+
 export const knowledgeCornerData = {
     en: {
         goBackBtnName: "Go back",
         homepageName: "Home",
-        pageTitle: "Knowledge Corner",
+        pageTitle:
+            "Knowledge Corner - Exporting Dried Fruits, Nuts, and Legumes from Uzbekistan",
+        pagePath: "Knowledge Corner",
+
         knowledgePageTitle: [
             "This blog was written by Mansurjon Turabov, the owner of “MT FOODSTUFF TRADING” LLC, with 5 years of experience in the field of exporting dried fruits, nuts, and beans to several countries, including the CIS, Middle East, and EU regions.",
             "The author has compiled a list of questions that importers might ask and answered them based on his experience. He hopes this article helps potential customers make faster, more effective import-export decisions. If you have further questions, please leave them at the end of this page with your contact details. When we publish answers, we’ll notify you via email.",
@@ -701,39 +725,95 @@ export const knowledgeCornerData = {
                 description:
                     "Black raisins. Uzbekistan produces sweet, GMO-free, and most importantly, seedless Kishmish grapes. The “soyaki” raisins (shadow-dried grapes) are well-recognized and exported to countries like Turkey, China, and Iran. Recently, EU countries have also shown increased interest in Uzbekistan’s raisin products.",
                 imageSrc: "/assets/images/mayiz.png",
+                imageAlt:
+                    "Uzbekistan's black raisins (soyaka) – GMO-free dried fruits export",
             },
             {
                 title: "What farming/manufacturing methods are used for agricultural products in Uzbekistan (GMO/Conventional/Organic)?",
                 description:
                     "Uzbekistan is a safe country to source GMO-free products. About 99.9% of the country’s agricultural harvest is GMO-free, with both organic and conventional farming practices widely used. However, only a few producers currently hold official organic certifications.",
                 imageSrc: "/assets/images/field.png",
+                imageAlt:
+                    "Organic almonds harvested in Uzbekistan – high-quality nut exports",
             },
             {
                 title: "What is the best common route to Middle Eastern countries from Uzbekistan (transportation)?",
                 description:
                     "Since Uzbekistan is a landlocked country, the nearest ports we use are Bandar Abbas in Iran or Mersin in Turkey. The choice of port depends on the final destination of the shipment.",
                 imageSrc: "",
+                imageAlt:
+                    " Fresh legumes ready for export from Uzbekistan to the Middle East",
             },
             {
                 title: "If we import from Uzbekistan to Pakistan, which port is used?",
                 description:
                     "Thanks to our peaceful and warm relations with Afghanistan, we now primarily use trucks for road transport to Pakistan. Previously, we relied on the Karachi port.",
                 imageSrc: "",
+                imageAlt:
+                    "Dried apricots processed in Uzbekistan for European markets",
             },
             {
                 title: "Are almonds from Uzbekistan similar to Californian almonds?",
                 description:
                     "Uzbek almonds differ from Californian almonds in both shape and taste. While the shapes are distinct, Uzbek almonds offer a unique flavor that makes them special in their own right.",
                 imageSrc: "/assets/images/bodom.png",
+                imageAlt:
+                    "Transport route from Uzbekistan to Mersin and Bandar Abbas ports",
             },
         ],
     },
     ru: {
         goBackBtnName: "Назад",
         homepageName: "Главная",
-        pageTitle: "Уголок знаний",
-        knowledgePageTitle: ["We offer for you 👇"],
-        informations: [],
+        pageTitle:
+            "Уголок знаний – Экспорт сухофруктов, орехов и бобовых из Узбекистана",
+        pagePath: "Уголок знаний",
+        knowledgePageTitle: [
+            "Эта статья написана Мансуржоном Турабовым, владельцем ООО «MT FOODSTUFF TRADING», который имеет более 5 лет опыта в экспорте сухофруктов, орехов и бобовых культур в страны СНГ, Ближнего Востока и Европейского Союза.",
+            "Автор собрал список вопросов, которые могут возникнуть у импортеров, и ответил на них, основываясь на своем опыте. Он надеется, что эта статья поможет потенциальным клиентам принимать быстрые и эффективные решения в сфере импорта и экспорта. Если у вас возникнут дополнительные вопросы, оставьте их в конце страницы вместе с вашими контактными данными. Когда мы опубликуем ответы, вы получите уведомление по электронной почте.",
+        ],
+        informations: [
+            {
+                title: "Каким сухофруктом гордится Узбекистан?",
+                description:
+                    "Черным изюмом. Узбекистан производит сладкий, не содержащий ГМО, и, что особенно важно, бессемянный виноград кишмиш. Изюм «сояки» (высушенный в тени виноград) хорошо известен и экспортируется в такие страны, как Турция, Китай и Иран. В последние годы растет интерес к узбекскому изюму и среди стран Европейского Союза.",
+                imageSrc: "/assets/images/mayiz.png",
+                imageAlt:
+                    "Черный изюм Узбекистана (сояки) – экспорт сухофруктов без ГМО",
+            },
+            {
+                title: "Какие методы производства сельскохозяйственной продукции используются в Узбекистане (ГМО/традиционные/органические)?",
+                description:
+                    "Узбекистан — это безопасная страна для закупки продукции, не содержащей ГМО. Около 99,9% сельскохозяйственной продукции в стране является безвредной для здоровья, производится по органическим и традиционным методам. Однако в настоящее время лишь небольшое количество производителей имеют официальные сертификаты органической продукции.",
+                imageSrc: "/assets/images/field.png",
+                imageAlt:
+                    "Органический миндаль из Узбекистана – экспорт орехов высокого качества",
+            },
+            {
+                title: "Какие маршруты наиболее популярны для доставки продукции из Узбекистана в страны Ближнего Востока?",
+                description:
+                    "Так как Узбекистан является страной, не имеющей выхода к морю, ближайшие порты для транспортировки — это порт Бендер-Аббас в Иране и порт Мерсин в Турции. Выбор порта зависит от конечного пункта назначения груза.",
+                imageSrc: "/assets/images/bodom.png",
+                imageAlt:
+                    "Свежие бобовые для экспорта из Узбекистана на Ближний Восток",
+            },
+            {
+                title: " Какой порт используется для экспорта продукции из Узбекистана в Пакистан?",
+                description:
+                    "Благодаря теплым и дружественным отношениям с Афганистаном, доставка в Пакистан теперь в основном осуществляется грузовиками по автодорогам. Ранее для этого использовался порт Карачи.",
+                imageSrc: "/assets/images/bodom.png",
+                imageAlt:
+                    "Сушеные абрикосы из Узбекистана для европейского рынка",
+            },
+            {
+                title: "Похож ли узбекский миндаль на калифорнийский?",
+                description:
+                    "Узбекский миндаль отличается от калифорнийского как по форме, так и по вкусу. Формы заметно различаются, но узбекский миндаль обладает уникальным вкусом, который делает его особенным.",
+                imageSrc: "/assets/images/bodom.png",
+                imageAlt:
+                    "Маршрут доставки из Узбекистана в порты Мерсин и Бендер-Аббас",
+            },
+        ],
     },
 };
 

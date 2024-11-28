@@ -8,19 +8,29 @@ import SocialMedias from "components/home/SocialMedias";
 
 import Footer from "components/Footer";
 
-import { knowledgeCornerData, messageData } from "data/data";
+import {
+    knowledgeCornerData,
+    knowledgeCornerMetaSEO,
+    messageData,
+} from "data/data";
 
 import { useRouter } from "next/router";
 import { Contact } from "components/home/index";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { NextSeo } from "next-seo";
 
-function Knowledge({ data, messageControlData }) {
+function Knowledge({ data, messageControlData, metaSEO }) {
     const router = useRouter();
     console.log(messageControlData);
 
     return (
         <>
             <div>
+                <NextSeo
+                    title={metaSEO?.title}
+                    description={metaSEO?.description}
+                    additionalMetaTags={metaSEO?.metas}
+                />
                 <SocialMedias />
                 <section className="knowledge-page" id="knowledge-page">
                     <div className="knowledge-page-top">
@@ -40,7 +50,7 @@ function Knowledge({ data, messageControlData }) {
                                 </a>
                             </Link>
                             <span>»</span>
-                            {data.pageTitle}
+                            {data.pagePath}
                         </p>
                         <div className="knowledge-page-top__bg">
                             <div
@@ -89,12 +99,12 @@ function Knowledge({ data, messageControlData }) {
                                             />
                                         </div>
                                         <div className="knowledge-page-row__body">
-                                            <h4 className="knowledge-page-row__title">
+                                            <h2 className="knowledge-page-row__title">
                                                 {el.title}
-                                            </h4>
-                                            <p className="knowledge-page-row__desc">
+                                            </h2>
+                                            <h3 className="knowledge-page-row__desc">
                                                 {el.description}
-                                            </p>
+                                            </h3>
                                         </div>
                                     </div>
                                 );
@@ -119,11 +129,13 @@ export default Knowledge;
 export async function getServerSideProps({ locale }) {
     const data = knowledgeCornerData[locale];
     const messageControlData = messageData[locale];
+    const metaSEO = knowledgeCornerMetaSEO[locale];
 
     return {
         props: {
             data,
             messageControlData,
+            metaSEO,
             ...(await serverSideTranslations(locale, ["home"])),
         },
     };

@@ -3,12 +3,14 @@ import Image from "next/image";
 import { useState, useRef, useEffect, memo } from "react";
 import { useTranslation } from "next-i18next";
 import Accordion from "./Accordion";
+import Link from "next/link";
 
 const Faq = () => {
     const { t } = useTranslation("home");
     const accordion = t("faq.accordion", { returnObjects: true });
     const title = t("faq.title");
     const text = t("faq.text");
+    const faqLink = t("faq.faqLink");
 
     const [accordionId, setAccordionId] = useState(1);
     const faqLeftRef = useRef(null);
@@ -43,6 +45,10 @@ const Faq = () => {
             window.removeEventListener("load", accordionListCt);
         };
     });
+
+    function rememberedScroll() {
+        // Cookies.set("page-scroll", Math.floor(window.pageYOffset));
+    }
 
     return (
         <section className="faq" id="faq">
@@ -94,6 +100,16 @@ const Faq = () => {
                         priority
                     />
                 </div>
+            </div>
+            <div className="faq__links">
+                <Link
+                    href="/faq-knowledge-export-business-uzbekistan"
+                    offset={-150}
+                >
+                    <a onClick={rememberedScroll} className="faq__link">
+                        {faqLink}
+                    </a>
+                </Link>
             </div>
         </section>
     );
