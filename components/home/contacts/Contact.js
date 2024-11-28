@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import { phoneNumberControl } from "../../../custom/hooks";
 import { useTranslation } from "next-i18next";
 
-const Contact = () => {
+const Contact = ({ sideImage }) => {
     const { t } = useTranslation("home");
     const themes = t("contact.form.themes", {
         returnObjects: true,
@@ -211,7 +211,9 @@ const Contact = () => {
                     </form>
                     <div className="contact-image">
                         <Image
-                            src="/assets/images/contact-image.png"
+                            src={
+                                sideImage || "/assets/images/contact-image.png"
+                            }
                             alt="Quality Image"
                             width="558"
                             height="644"

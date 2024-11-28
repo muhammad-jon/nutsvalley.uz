@@ -686,6 +686,57 @@ export const productsData = {
     },
 };
 
+export const knowledgeCornerData = {
+    en: {
+        goBackBtnName: "Go back",
+        homepageName: "Home",
+        pageTitle: "Knowledge Corner",
+        knowledgePageTitle: [
+            "This blog was written by Mansurjon Turabov, the owner of “MT FOODSTUFF TRADING” LLC, with 5 years of experience in the field of exporting dried fruits, nuts, and beans to several countries, including the CIS, Middle East, and EU regions.",
+            "The author has compiled a list of questions that importers might ask and answered them based on his experience. He hopes this article helps potential customers make faster, more effective import-export decisions. If you have further questions, please leave them at the end of this page with your contact details. When we publish answers, we’ll notify you via email.",
+        ],
+        informations: [
+            {
+                title: "What is the best dried fruit Uzbekistan is proud of?",
+                description:
+                    "Black raisins. Uzbekistan produces sweet, GMO-free, and most importantly, seedless Kishmish grapes. The “soyaki” raisins (shadow-dried grapes) are well-recognized and exported to countries like Turkey, China, and Iran. Recently, EU countries have also shown increased interest in Uzbekistan’s raisin products.",
+                imageSrc: "/assets/images/mayiz.png",
+            },
+            {
+                title: "What farming/manufacturing methods are used for agricultural products in Uzbekistan (GMO/Conventional/Organic)?",
+                description:
+                    "Uzbekistan is a safe country to source GMO-free products. About 99.9% of the country’s agricultural harvest is GMO-free, with both organic and conventional farming practices widely used. However, only a few producers currently hold official organic certifications.",
+                imageSrc: "/assets/images/field.png",
+            },
+            {
+                title: "What is the best common route to Middle Eastern countries from Uzbekistan (transportation)?",
+                description:
+                    "Since Uzbekistan is a landlocked country, the nearest ports we use are Bandar Abbas in Iran or Mersin in Turkey. The choice of port depends on the final destination of the shipment.",
+                imageSrc: "",
+            },
+            {
+                title: "If we import from Uzbekistan to Pakistan, which port is used?",
+                description:
+                    "Thanks to our peaceful and warm relations with Afghanistan, we now primarily use trucks for road transport to Pakistan. Previously, we relied on the Karachi port.",
+                imageSrc: "",
+            },
+            {
+                title: "Are almonds from Uzbekistan similar to Californian almonds?",
+                description:
+                    "Uzbek almonds differ from Californian almonds in both shape and taste. While the shapes are distinct, Uzbek almonds offer a unique flavor that makes them special in their own right.",
+                imageSrc: "/assets/images/bodom.png",
+            },
+        ],
+    },
+    ru: {
+        goBackBtnName: "Назад",
+        homepageName: "Главная",
+        pageTitle: "Уголок знаний",
+        knowledgePageTitle: ["We offer for you 👇"],
+        informations: [],
+    },
+};
+
 export const fixedFormData = {
     en: {
         title: "Order now",
