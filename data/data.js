@@ -5,7 +5,7 @@ export const productsMetaSEO = {
         productsType: [
             {
                 content: "nuts",
-                title: "Nuts wholesale export best prices from producer from Uzbekistan - Mt-food.uz",
+                title: "Nuts wholesale export best prices from reliable exporter from Uzbekistan - Mt-food.uz",
                 description:
                     "Nuts in assortment from Uzbekistan wholesale. A quality product with a guarantee. Delivery on time. Read more on the website",
                 metas: [{}],
@@ -21,7 +21,7 @@ export const productsMetaSEO = {
                 content: "beans",
                 title: "Uzbek beans wholesale export company - Mt-food.uz",
                 description:
-                    "Legumes wholesale from the manufacturer in Uzbekistan. Fast delivery. Product with a guarantee. The entire range can be viewed on the website.",
+                    "Legumes wholesale from the exporter in Uzbekistan. Fast delivery. Product with a guarantee. The entire range can be viewed on the website.",
                 metas: [{}],
             },
         ],
@@ -30,14 +30,14 @@ export const productsMetaSEO = {
         productsType: [
             {
                 content: "nuts",
-                title: "Орехи оптом экспорт от производителя оптом из Узбекистана - Mt-food.uz",
+                title: "Орехи оптом экспорт от экспортера оптом из Узбекистана - Mt-food.uz",
                 description:
                     "Орехи в ассортименте из Узбекистана оптом. Качественный товар с гарантией. Доставка точно в срок. Подробнее на сайте",
                 metas: [{}],
             },
             {
                 content: "dried-fruits",
-                title: "Поставка сухофруктов от узбекского производителя оптом - Mt-food.uz",
+                title: "Поставка сухофруктов от узбекского экспортера оптом - Mt-food.uz",
                 description:
                     "Сухофрукты высокого качества из Узбекистана. Своевременная доставка. Гарантия на продукцию. Весь ассортимент можно посмотреть на сайте",
                 metas: [{}],
@@ -46,7 +46,7 @@ export const productsMetaSEO = {
                 content: "beans",
                 title: "Оптовая компания по экспорту узбекской фасоли - Mt-food.uz",
                 description:
-                    "Бобовые оптом от производителя в Узбекистане. Быстрая доставка. Гарантия на продукцию. Весь ассортимент можно посмотреть на сайте",
+                    "Бобовые оптом от экспортера в Узбекистане. Быстрая доставка. Гарантия на продукцию. Весь ассортимент можно посмотреть на сайте",
                 metas: [{}],
             },
         ],
@@ -58,16 +58,15 @@ export const homeMetaSEO = {
         description:
             "Nuts, dried fruits and legumes from Uzbekistan. A quality product with a guarantee. Delivery on time. You can order from our website",
         metas: [{}],
-        title: "Dried fruits, nuts and legumes reliable exporter from Uzbekistan - Mt-food.uz",
+        title: "Dried fruits, nuts and legumes experienced exporter from Uzbekistan - Mt-food.uz",
     },
     ru: {
         description:
             "Орехи, сухофрукты и бобовые из Узбекистана. Качественный товар с гарантией. Доставка точно в срок. Заказать можно у нас на сайте.",
         metas: [{}],
-        title: "Надёжный экспортер сухофруктов, орехов и бобовых культур Узбекистана - Mt-food.uz",
+        title: "Опытный экспортер сухофруктов, орехов и бобовых культур Узбекистана - Mt-food.uz",
     },
 };
-
 export const headerData = {
     en: {
         navbarList: [
@@ -688,21 +687,17 @@ export const productsData = {
 
 export const knowledgeCornerMetaSEO = {
     en: {
-        title: "Dried Fruits Export Uzbekistan | Organic Nuts & Legumes Supplier",
+        title: "Knowledge Corner by an Experienced Exporter | Dried Fruits, Nuts & Beans from Uzbekistan",
         description:
-            "Export premium dried fruits, organic nuts, and legumes from Uzbekistan. Safe GMO-free products with reliable global delivery.",
-        keywords: [
-            "dried fruits export, organic nuts supplier, Uzbekistan farming, GMO-free products, legumes export",
-        ],
+            "Discover insights into dried fruit, nuts, and beans exports from Uzbekistan, provided by an experienced exporter. Learn about transportation routes and premium products.",
+
         metas: [{}],
     },
     ru: {
-        title: "Экспорт сухофруктов Узбекистан | Поставщик органических орехов и бобовых",
+        title: "Уголок знаний от опытного экспортера | Сухофрукты, орехи и бобовые из Узбекистана",
         description:
-            "Экспорт сухофруктов, органических орехов и бобовых из Узбекистана. Безопасные продукты без ГМО с доставкой по всему миру.",
-        keywords: [
-            "экспорт сухофруктов, поставщик орехов, Узбекистан сельское хозяйство, продукты без ГМО, экспорт бобовых",
-        ],
+            "Узнайте все о экспорте сухофруктов, орехов и бобовых из Узбекистана от опытного экспортера. Узнайте о маршрутах доставки и премиальных продуктах.",
+
         metas: [{}],
     },
 };
@@ -712,50 +707,50 @@ export const knowledgeCornerData = {
         goBackBtnName: "Go back",
         homepageName: "Home",
         pageTitle:
-            "Knowledge Corner - Exporting Dried Fruits, Nuts, and Legumes from Uzbekistan",
+            "Knowledge Corner – Exporting Dried Fruits, Nuts, and Legumes from Uzbekistan",
         pagePath: "Knowledge Corner",
 
         knowledgePageTitle: [
-            "This blog was written by Mansurjon Turabov, the owner of “MT FOODSTUFF TRADING” LLC, with 5 years of experience in the field of exporting dried fruits, nuts, and beans to several countries, including the CIS, Middle East, and EU regions.",
-            "The author has compiled a list of questions that importers might ask and answered them based on his experience. He hopes this article helps potential customers make faster, more effective import-export decisions. If you have further questions, please leave them at the end of this page with your contact details. When we publish answers, we’ll notify you via email.",
+            "This current blog was made by Mansurjon Turabov the company owner (“MT FOODSTUFF TRADING” LLC), with 5 years experience in the field of exporting dried fruit, nuts and beans to number of countries including areas like – CIS, Middle Eaчst, EU countries.",
+            "The author – made a list of questions that may arise in importers’ head, and tries to answer these questions by his own, sticking to his experience. And he wishes that the current article helps potential customers make import-export decisions faster and more effectively and in a more appropriate way.  Also, if there any questions arise in someone’s head, please leave your questions in the end of this page with your contact information, so when we publish the answer for the question, we shall send a notification letter to your email address.",
         ],
         informations: [
             {
-                title: "What is the best dried fruit Uzbekistan is proud of?",
+                title: "What is the best dried fruit, that Uzbekistan is proud of?",
                 description:
-                    "Black raisins. Uzbekistan produces sweet, GMO-free, and most importantly, seedless Kishmish grapes. The “soyaki” raisins (shadow-dried grapes) are well-recognized and exported to countries like Turkey, China, and Iran. Recently, EU countries have also shown increased interest in Uzbekistan’s raisin products.",
+                    "Black raisins. Uzbekistan produces sweet, no GMO, and most importantly – no stone Kishmish grapes. The “soyaki” raisins (shadow dried grapes) are well recognized and imported to countries like Turkey, China and Iran. EU countries now find Uzbekistan as attractive for raisin products.",
                 imageSrc: "/assets/images/mayiz.png",
                 imageAlt:
                     "Uzbekistan's black raisins (soyaka) – GMO-free dried fruits export",
             },
             {
-                title: "What farming/manufacturing methods are used for agricultural products in Uzbekistan (GMO/Conventional/Organic)?",
+                title: "What is the way of farming/manufacturing agricultural products (GMO/Conventional/Organic)?",
                 description:
-                    "Uzbekistan is a safe country to source GMO-free products. About 99.9% of the country’s agricultural harvest is GMO-free, with both organic and conventional farming practices widely used. However, only a few producers currently hold official organic certifications.",
+                    "Uzbekistan – is a safe country to import GMO-free products from. 99.9% of the products in Uzbekistan harvested are GMO free products. They are organic and conventional.  Only a few producers hold Organic certificates in Uzbekistan.",
                 imageSrc: "/assets/images/field.png",
                 imageAlt:
                     "Organic almonds harvested in Uzbekistan – high-quality nut exports",
             },
             {
-                title: "What is the best common route to Middle Eastern countries from Uzbekistan (transportation)?",
+                title: "What is the best common route to Middle East countries from Uzbekistan? (transportation)",
                 description:
-                    "Since Uzbekistan is a landlocked country, the nearest ports we use are Bandar Abbas in Iran or Mersin in Turkey. The choice of port depends on the final destination of the shipment.",
+                    "As Uzbekistan is landlocked country, we need to head to nearest ports which is Bander Abbas (Iran), or Mersin (Turkey). According to the final destination, we use one of these ports.",
                 imageSrc: "",
                 imageAlt:
                     " Fresh legumes ready for export from Uzbekistan to the Middle East",
             },
             {
-                title: "If we import from Uzbekistan to Pakistan, which port is used?",
+                title: "If we import from Uzbekistan to Pakistan – what is the port you use?",
                 description:
-                    "Thanks to our peaceful and warm relations with Afghanistan, we now primarily use trucks for road transport to Pakistan. Previously, we relied on the Karachi port.",
+                    "As we now have peaceful and warm relationship with Afghanistan, we are now using trucks on road for Pakistan. But in the past we used to use – port to Karachi.",
                 imageSrc: "",
                 imageAlt:
                     "Dried apricots processed in Uzbekistan for European markets",
             },
             {
-                title: "Are almonds from Uzbekistan similar to Californian almonds?",
+                title: "Are almonds from Uzbekistan alike Californian?",
                 description:
-                    "Uzbek almonds differ from Californian almonds in both shape and taste. While the shapes are distinct, Uzbek almonds offer a unique flavor that makes them special in their own right.",
+                    "The almond products are not like almonds from California. The shape differs. And the taste.",
                 imageSrc: "/assets/images/bodom.png",
                 imageAlt:
                     "Transport route from Uzbekistan to Mersin and Bandar Abbas ports",
