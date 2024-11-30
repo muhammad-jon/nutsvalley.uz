@@ -68,7 +68,7 @@ function Knowledge({ data, messageControlData, metaSEO }) {
                     </div>
                     <div className="container">
                         <div className="knowledge-page__informations-title">
-                            {data.knowledgePageTitle &&
+                            {Array.isArray(data.knowledgePageTitle) &&
                                 data.knowledgePageTitle.map((el, i) => {
                                     return (
                                         <p key={i}>
@@ -78,7 +78,7 @@ function Knowledge({ data, messageControlData, metaSEO }) {
                                 })}
                         </div>
                         <div className="knowledge-page__informations">
-                            {data.informations &&
+                            {Array.isArray(data.informations) &&
                                 data.informations.map((el, i) => {
                                     return (
                                         <div
