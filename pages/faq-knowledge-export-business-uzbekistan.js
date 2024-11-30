@@ -68,7 +68,7 @@ function Knowledge({ data, messageControlData, metaSEO }) {
                     </div>
                     <div className="container">
                         <div className="knowledge-page__informations-title">
-                            {Array.isArray(data.knowledgePageTitle) &&
+                            {data.knowledgePageTitle &&
                                 data.knowledgePageTitle.map((el, i) => {
                                     return (
                                         <p key={i}>
@@ -78,7 +78,7 @@ function Knowledge({ data, messageControlData, metaSEO }) {
                                 })}
                         </div>
                         <div className="knowledge-page__informations">
-                            {Array.isArray(data.informations) &&
+                            {data.informations &&
                                 data.informations.map((el, i) => {
                                     return (
                                         <div
@@ -111,11 +111,11 @@ function Knowledge({ data, messageControlData, metaSEO }) {
                                 })}
                         </div>
 
-                        <Contact
+                        {/* <Contact
                             sideImage="/assets/images/question-sign.png"
                             success={messageControlData?.successSent}
                             notSuccessSent={messageControlData?.notSuccessSent}
-                        />
+                        /> */}
                     </div>
                 </section>
                 <Footer buttonUpCt={true} />
