@@ -14,6 +14,7 @@ import Sticky from "react-stickynode";
 import Header from "components/header/Header";
 import Script from "next/script";
 import Loading from "components/Loading";
+import useRememberScroll from "components/useRememberScroll";
 
 function Home({ seo }) {
     const router = useRouter();
@@ -48,17 +49,21 @@ function Home({ seo }) {
         return () => clearTimeout(t);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
+    useRememberScroll();
 
     useEffect(() => {
-        const t = setTimeout(() => {
-            setTimeout(() => {
-                window.scrollTo(0, Cookies.get("page-scroll"));
-            }, 0);
-        }, 1100);
+        const handleRouteChange = () => {
+            Cookies.set("page-scroll", Math.floor(window.scrollY), {
+                expires: 1,
+            });
+        };
 
-        return () => clearTimeout(t);
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [Cookies.get("page-scroll")]);
+        router.events.on("routeChangeStart", handleRouteChange);
+
+        return () => {
+            router.events.off("routeChangeStart", handleRouteChange);
+        };
+    }, [router.events]);
 
     return (
         <>

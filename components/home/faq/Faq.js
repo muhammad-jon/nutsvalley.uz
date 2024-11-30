@@ -47,7 +47,8 @@ const Faq = () => {
     });
 
     function rememberedScroll() {
-        // Cookies.set("page-scroll", Math.floor(window.pageYOffset));
+        Cookies.set("page-scroll", Math.floor(window.pageYOffset));
+        console.log("reme", window.pageYOffset);
     }
 
     return (
