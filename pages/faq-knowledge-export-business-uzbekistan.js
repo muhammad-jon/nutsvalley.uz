@@ -111,11 +111,11 @@ function Knowledge({ data, messageControlData, metaSEO }) {
                                 })}
                         </div>
 
-                        {/* <Contact
+                        <Contact
                             sideImage="/assets/images/question-sign.png"
                             success={messageControlData?.successSent}
                             notSuccessSent={messageControlData?.notSuccessSent}
-                        /> */}
+                        />
                     </div>
                 </section>
                 <Footer buttonUpCt={true} />
