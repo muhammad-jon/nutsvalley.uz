@@ -14,15 +14,11 @@ import {
     messageData,
 } from "data/data";
 
-import { useRouter } from "next/router";
 import { Contact } from "components/home/index";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { NextSeo } from "next-seo";
 
 function Knowledge({ data, messageControlData, metaSEO }) {
-    const router = useRouter();
-    console.log(messageControlData);
-
     return (
         <>
             <div>
@@ -72,43 +68,47 @@ function Knowledge({ data, messageControlData, metaSEO }) {
                     </div>
                     <div className="container">
                         <div className="knowledge-page__informations-title">
-                            {data.knowledgePageTitle.map((el, i) => {
-                                return (
-                                    <p key={i}>
-                                        <b>{el}</b>
-                                    </p>
-                                );
-                            })}
+                            {data.knowledgePageTitle &&
+                                data.knowledgePageTitle.map((el, i) => {
+                                    return (
+                                        <p key={i}>
+                                            <b>{el}</b>
+                                        </p>
+                                    );
+                                })}
                         </div>
                         <div className="knowledge-page__informations">
-                            {data.informations.map((el, i) => {
-                                return (
-                                    <div key={i} className="knowledge-page-row">
-                                        <div className="knowledge-page-row__image">
-                                            <Image
-                                                src={
-                                                    el.imageSrc
-                                                        ? el.imageSrc
-                                                        : "/"
-                                                }
-                                                width="526"
-                                                height="351"
-                                                layout="intrinsic"
-                                                alt={el.title}
-                                                priority
-                                            />
+                            {data.informations &&
+                                data.informations.map((el, i) => {
+                                    return (
+                                        <div
+                                            key={i}
+                                            className="knowledge-page-row"
+                                        >
+                                            <div className="knowledge-page-row__image">
+                                                <Image
+                                                    src={
+                                                        el.imageSrc ||
+                                                        "/placeholder.png"
+                                                    }
+                                                    width="526"
+                                                    height="351"
+                                                    layout="intrinsic"
+                                                    alt={el.title || "default"}
+                                                    priority
+                                                />
+                                            </div>
+                                            <div className="knowledge-page-row__body">
+                                                <h2 className="knowledge-page-row__title">
+                                                    {el.title}
+                                                </h2>
+                                                <h3 className="knowledge-page-row__desc">
+                                                    {el.description}
+                                                </h3>
+                                            </div>
                                         </div>
-                                        <div className="knowledge-page-row__body">
-                                            <h2 className="knowledge-page-row__title">
-                                                {el.title}
-                                            </h2>
-                                            <h3 className="knowledge-page-row__desc">
-                                                {el.description}
-                                            </h3>
-                                        </div>
-                                    </div>
-                                );
-                            })}
+                                    );
+                                })}
                         </div>
 
                         <Contact

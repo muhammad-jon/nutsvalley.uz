@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import { phoneNumberControl } from "../../../custom/hooks";
 import { useTranslation } from "next-i18next";
 
-const Contact = ({ sideImage }) => {
+const Contact = ({ sideImage, notSuccessSent, success }) => {
     const { t } = useTranslation("home");
     const themes = t("contact.form.themes", {
         returnObjects: true,
@@ -16,7 +16,7 @@ const Contact = ({ sideImage }) => {
     const [selectionControl, setSelectionControl] = useState(false);
     const contactSelectionRow = useRef(null);
     const contactSelectionList = useRef(null);
-    const [itemValue, setItemValue] = useState(themes.list[0].value);
+    const [itemValue, setItemValue] = useState(themes?.list?.[0].value);
     const { setForm } = useGlobalContext();
 
     const {
@@ -59,12 +59,12 @@ const Contact = ({ sideImage }) => {
                     tel: "",
                     message: "",
                 });
-                setItemValue(themes.list[0].value);
-                setForm({ control: true, data: props.success, isUccess: true });
+                setItemValue(themes?.list?.[0].value);
+                setForm({ control: true, data: success, isUccess: true });
             } else {
                 setForm({
                     control: true,
-                    data: props.notSuccessSent,
+                    data: notSuccessSent,
                     isUccess: false,
                 });
             }

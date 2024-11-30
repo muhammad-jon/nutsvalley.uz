@@ -5,7 +5,7 @@ export const productsMetaSEO = {
         productsType: [
             {
                 content: "nuts",
-                title: "Nuts wholesale export best prices from reliable exporter from Uzbekistan - Mt-food.uz",
+                title: "https://mt-food.uz/en/products/nuts - Nuts wholesale export best prices from from Uzbekistan",
                 description:
                     "Nuts in assortment from Uzbekistan wholesale. A quality product with a guarantee. Delivery on time. Read more on the website",
                 metas: [{}],
@@ -30,14 +30,14 @@ export const productsMetaSEO = {
         productsType: [
             {
                 content: "nuts",
-                title: "Орехи оптом экспорт от экспортера оптом из Узбекистана - Mt-food.uz",
+                title: "https://mt-food.uz/products/nuts - Орехи оптом экспорт от производителя оптом из Узбекистана",
                 description:
                     "Орехи в ассортименте из Узбекистана оптом. Качественный товар с гарантией. Доставка точно в срок. Подробнее на сайте",
                 metas: [{}],
             },
             {
                 content: "dried-fruits",
-                title: "Поставка сухофруктов от узбекского экспортера оптом - Mt-food.uz",
+                title: "https://mt-food.uz/products/dried-fruits - Поставка сухофруктов от узбекского производителя оптом",
                 description:
                     "Сухофрукты высокого качества из Узбекистана. Своевременная доставка. Гарантия на продукцию. Весь ассортимент можно посмотреть на сайте",
                 metas: [{}],
@@ -58,13 +58,13 @@ export const homeMetaSEO = {
         description:
             "Nuts, dried fruits and legumes from Uzbekistan. A quality product with a guarantee. Delivery on time. You can order from our website",
         metas: [{}],
-        title: "Dried fruits, nuts and legumes experienced exporter from Uzbekistan - Mt-food.uz",
+        title: "https://mt-food.uz/en - Dried fruits, nuts and legumes exporter from Uzbekistan",
     },
     ru: {
         description:
             "Орехи, сухофрукты и бобовые из Узбекистана. Качественный товар с гарантией. Доставка точно в срок. Заказать можно у нас на сайте.",
         metas: [{}],
-        title: "Опытный экспортер сухофруктов, орехов и бобовых культур Узбекистана - Mt-food.uz",
+        title: "https://mt-food.uz/ - Опытный экспортер сухофруктов, орехов и бобовые Узбекистана",
     },
 };
 export const headerData = {
@@ -735,7 +735,7 @@ export const knowledgeCornerData = {
                 title: "What is the best common route to Middle East countries from Uzbekistan? (transportation)",
                 description:
                     "As Uzbekistan is landlocked country, we need to head to nearest ports which is Bander Abbas (Iran), or Mersin (Turkey). According to the final destination, we use one of these ports.",
-                imageSrc: "",
+                imageSrc: "/assets/images/uzb-map.png",
                 imageAlt:
                     " Fresh legumes ready for export from Uzbekistan to the Middle East",
             },
@@ -743,7 +743,7 @@ export const knowledgeCornerData = {
                 title: "If we import from Uzbekistan to Pakistan – what is the port you use?",
                 description:
                     "As we now have peaceful and warm relationship with Afghanistan, we are now using trucks on road for Pakistan. But in the past we used to use – port to Karachi.",
-                imageSrc: "",
+                imageSrc: "/assets/images/uzb-map1.png",
                 imageAlt:
                     "Dried apricots processed in Uzbekistan for European markets",
             },
@@ -788,7 +788,7 @@ export const knowledgeCornerData = {
                 title: "Какие маршруты наиболее популярны для доставки продукции из Узбекистана в страны Ближнего Востока?",
                 description:
                     "Так как Узбекистан является страной, не имеющей выхода к морю, ближайшие порты для транспортировки — это порт Бендер-Аббас в Иране и порт Мерсин в Турции. Выбор порта зависит от конечного пункта назначения груза.",
-                imageSrc: "/assets/images/bodom.png",
+                imageSrc: "/assets/images/uzb-map.png",
                 imageAlt:
                     "Свежие бобовые для экспорта из Узбекистана на Ближний Восток",
             },
@@ -796,7 +796,7 @@ export const knowledgeCornerData = {
                 title: " Какой порт используется для экспорта продукции из Узбекистана в Пакистан?",
                 description:
                     "Благодаря теплым и дружественным отношениям с Афганистаном, доставка в Пакистан теперь в основном осуществляется грузовиками по автодорогам. Ранее для этого использовался порт Карачи.",
-                imageSrc: "/assets/images/bodom.png",
+                imageSrc: "/assets/images/uzb-map1.png",
                 imageAlt:
                     "Сушеные абрикосы из Узбекистана для европейского рынка",
             },
