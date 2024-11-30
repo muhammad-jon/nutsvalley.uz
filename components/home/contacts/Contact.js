@@ -145,7 +145,7 @@ const Contact = ({ sideImage, notSuccessSent, success }) => {
                                             className="contact-selection__list"
                                             ref={contactSelectionList}
                                         >
-                                            {themes?.list.map((item, i) => (
+                                            {themes?.list?.map((item, i) => (
                                                 <div
                                                     key={i}
                                                     className="contact-selection__item"
