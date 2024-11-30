@@ -126,7 +126,7 @@ function Knowledge({ data, messageControlData, metaSEO }) {
 
 export default Knowledge;
 
-export async function getServerSideProps({ locale }) {
+export async function getStaticProps({ locale }) {
     const data = knowledgeCornerData[locale];
     const messageControlData = messageData[locale];
     const metaSEO = knowledgeCornerMetaSEO[locale];
