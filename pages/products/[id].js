@@ -166,6 +166,30 @@ function Index({
                                                 </p>
                                             </div>
                                         )}
+                                        {product.pcsPer100gr && (
+                                            <div className="products-page-row__box">
+                                                <p className="products-page-row__type">
+                                                    {
+                                                        productsRowNames.pcsPer100grName
+                                                    }
+                                                </p>
+                                                <p className="products-page-row__sort">
+                                                    {product.pcsPer100gr}
+                                                </p>
+                                            </div>
+                                        )}
+                                        {product.typeOfDrying && (
+                                            <div className="products-page-row__box">
+                                                <p className="products-page-row__type">
+                                                    {
+                                                        productsRowNames.typeOfDryingName
+                                                    }
+                                                </p>
+                                                <p className="products-page-row__sort">
+                                                    {product.typeOfDrying}
+                                                </p>
+                                            </div>
+                                        )}
                                     </section>
                                 </div>
                             </div>

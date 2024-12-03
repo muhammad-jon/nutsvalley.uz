@@ -144,7 +144,7 @@ export const productsData = {
                     "Whether you're a retailer, wholesaler, or individual buyer, we have the perfect solution for your nut needs.",
                 ],
                 additionalInfo: {
-                    // use this toll to change whole under products text https://python-fiddle.com/tools/markdown
+                    // use this toll to change whole products text down below https://python-fiddle.com/tools/markdown
                     text: `
 ## What is the best time to buy nuts in Uzbekistan?
 
@@ -325,6 +325,16 @@ For some products (e.g., roasted nuts or sensitive items), temperature-controlle
                         caliber: "2mm+",
                         imageSrc: "Sunflower-seeds-striped.png",
                     },
+                    {
+                        title: "Dried arpricot kernel",
+                        description:
+                            "We offer the highest quality apricot kernels, carefully selected and processed to preserve their natural goodness.",
+                        type: "Nuts",
+                        packaging: "In bags",
+                        caliber: null,
+                        typeOfDrying: "Sulfurized and Sun-Dried",
+                        imageSrc: "Drie-arpricot-kernel.png",
+                    },
                 ],
             },
             {
@@ -335,7 +345,7 @@ For some products (e.g., roasted nuts or sensitive items), temperature-controlle
                     "Discover the true taste of Uzbekistan with our carefully harvested and expertly processed dried fruits.",
                 ],
                 additionalInfo: {
-                    // use this toll to change whole under products text https://python-fiddle.com/tools/markdown
+                    // use this toll to change whole products text down below https://python-fiddle.com/tools/markdown
                     text: `## What is the Best-Selling Dried Fruit in Uzbekistan?
 Dried prunes with stones and Sultana raisins are the top-selling dried fruits from Uzbekistan. These two products are highly demanded in the Chinese and European markets, where they are widely used in confectionery production.
 
@@ -464,8 +474,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                     "Experience the best of Uzbekistan’s agricultural heritage with our carefully sourced and expertly handled products.",
                 ],
                 additionalInfo: {
-                    // use this toll to change whole under products text https://python-fiddle.com/tools/markdown
-
+                    // use this toll to change whole products text down below https://python-fiddle.com/tools/markdown
                     text: `## What are the seasons for legume products in Uzbekistan? 
 For kidney beans, there are two – 1) early season (June), 2) primary season (October). 
 For products like Green mung beans and chickpeas – only once. August – for chickpeas and October – for green mung beans. 
@@ -512,14 +521,37 @@ Refer to the calendar below for the harvest and buying periods of key products.
                 ],
                 products: [
                     {
-                        title: "Beans",
+                        title: "Purple speckled kidney beans",
                         description:
-                            "Many varieties are available: Precocious, Royal, Pockmarked and Black Eye. An accurate calculation of product units in 100 grams of weight is also available.",
+                            "A vibrant and flavorful legume with a rich, earthy taste. These beans are prized for their striking purple speckled color and their ability to add a touch of elegance to any dish. They are ideal for soups, stews, salads, and chili.",
                         type: "Legumes",
                         packaging: "In bags",
-                        caliber: "140-180, 180-220, 340-360pcs",
-                        imageSrc: "Red-beans.png",
+                        caliber: null,
+                        imageSrc: "Purple-speckled-kidney-beans.png",
                         humidity: "",
+                        pcsPer100gr: "150-160, 160-180, 180-200",
+                    },
+                    {
+                        title: "Light speckled kidney beans",
+                        description:
+                            "A versatile legume with a mild, slightly sweet flavor. These beans are known for their beautiful speckled appearance, ranging from light brown to creamy white. They are perfect for soups, stews, salads, and side dishes.",
+                        type: "Legumes",
+                        packaging: "In bags",
+                        caliber: null,
+                        imageSrc: "Light-speckled-kidney-beans.png",
+                        humidity: "",
+                        pcsPer100gr: "160-180, 180-200,",
+                    },
+                    {
+                        title: "Black eyed beans",
+                        description:
+                            "A nutritious and hearty legume with a subtle, nutty flavor. These beans are a popular choice for Southern cuisine, often used in dishes like Hoppin' John and black-eyed pea salad. They are a good source of fiber and protein and can be enjoyed in a variety of ways.",
+                        type: "Nuts",
+                        packaging: "In bags",
+                        caliber: null,
+                        imageSrc: "Black-eyed-beans.png",
+                        humidity: "",
+                        pcsPer100gr: "300-330",
                     },
                     {
                         title: "Green mung beans",
@@ -550,6 +582,8 @@ Refer to the calendar below for the harvest and buying periods of key products.
             humidityName: "Humidity:",
             packagingName: "Packaging:",
             typeName: "Type:",
+            pcsPer100grName: "Pcs per 100gr",
+            typeOfDryingName: "Type of Drying",
         },
     },
     ru: {
@@ -565,6 +599,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                     "Будь вы ритейлер, оптовик или частный покупатель, у нас есть идеальные решения для ваших нужд.",
                 ],
                 additionalInfo: {
+                    // use this toll to change whole products text down below https://python-fiddle.com/tools/markdown
                     text: `## Какое лучшее время для покупки орехов в Узбекистане?
 
 **Лучшее время для покупки орехов в Узбекистане — начало октября,** так как к этому времени сбор урожая завершен, а орехи хорошо просушены и готовы к экспорту.
@@ -732,6 +767,16 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         caliber: "2мм+",
                         imageSrc: "Sunflower-seeds-striped.png",
                     },
+                    {
+                        title: "Сухие ядра абрикоса",
+                        description:
+                            "Мы предлагаем ядра абрикоса высшего качества, тщательно отобранные и обработанные для сохранения их натуральной пользы.",
+                        type: "Орехи",
+                        packaging: "Мешки",
+                        caliber: null,
+                        typeOfDrying: "Сернистая сушка и солнечная сушка",
+                        imageSrc: "Drie-arpricot-kernel.png",
+                    },
                 ],
             },
             {
@@ -742,6 +787,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                     "Откройте для себя истинный вкус Узбекистана с нашими тщательно собранными и профессионально обработанными сухофруктами.",
                 ],
                 additionalInfo: {
+                    // use this toll to change whole products text down below https://python-fiddle.com/tools/markdown
                     text: `## Какой сухофрукт является самым популярным в Узбекистане?
 
 Чернослив с косточкой и изюм сорта Султана — самые популярные сухофрукты, экспортируемые из Узбекистана. Эти два продукта пользуются высоким спросом на рынках Китая и Европы, где они активно используются в производстве кондитерских изделий.
@@ -869,6 +915,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                     "Ищете бобовые премиального качества? MT FOODSTUFF TRADING предлагает широкий выбор свежих, качественных бобовых, включая нут, фасоль и маш. Эти продукты ценятся за их богатый вкус, высокое качество и конкурентные цены.",
                 ],
                 additionalInfo: {
+                    // use this toll to change whole products text down below https://python-fiddle.com/tools/markdown
                     text: `## Какие сезоны характерны для бобовых продуктов в Узбекистане?
 
 - **Фасоль:**
@@ -919,14 +966,37 @@ Refer to the calendar below for the harvest and buying periods of key products.
                 ],
                 products: [
                     {
-                        title: "Фасоль",
+                        title: "Фиолетовые пятнистые фасольки",
                         description:
-                            "Доступно множество сортов: Скороспелка, Королевская, Рябая и Черный глаз. Также доступен точный расчет единиц продукта в 100 граммах веса.",
+                            "Яркий и ароматный бобовый продукт с насыщенным, землистым вкусом. Эти фасольки ценятся за их выразительный фиолетовый окрас с пятнами и способность придавать элегантность любому блюду. Идеальны для супов, рагу, салатов и чили.",
                         type: "Бобовые",
                         packaging: "Мешки",
-                        caliber: "140-180, 180-220, 340-360шт",
-                        imageSrc: "Red-beans.png",
+                        caliber: null,
+                        imageSrc: "Purple-speckled-kidney-beans.png",
                         humidity: "",
+                        pcsPer100gr: "150-160, 160-180, 180-200",
+                    },
+                    {
+                        title: "Светлые пятнистые фасольки",
+                        description:
+                            "Универсальная бобовая культура с мягким, слегка сладким вкусом. Эти фасольки известны своим красивым пятнистым видом, от светло-коричневого до кремово-белого. Отлично подходят для супов, рагу, салатов и гарниров.",
+                        type: "Бобовые",
+                        packaging: "Мешки",
+                        caliber: null,
+                        imageSrc: "Light-speckled-kidney-beans.png",
+                        humidity: "",
+                        pcsPer100gr: "160-180, 180-200",
+                    },
+                    {
+                        title: "Чёрноглазые фасольки",
+                        description:
+                            "Питательная и сытная бобовая культура с тонким, ореховым вкусом. Эти фасольки популярны в южной кухне, часто используются в таких блюдах, как Hoppin' John и салат из чёрноглазых бобов. Хороший источник клетчатки и белка, и могут быть использованы в различных блюдах.",
+                        type: "Орехи",
+                        packaging: "Мешки",
+                        caliber: null,
+                        imageSrc: "Black-eyed-beans.png",
+                        humidity: "",
+                        pcsPer100gr: "300-330",
                     },
                     {
                         title: "Зеленый маш",
@@ -957,6 +1027,8 @@ Refer to the calendar below for the harvest and buying periods of key products.
             humidityName: "Влажность:",
             packagingName: "Упаковка",
             typeName: "Тип:",
+            pcsPer100grName: "Шт. на 100 г",
+            typeOfDryingName: "Тип сушки",
         },
     },
 };

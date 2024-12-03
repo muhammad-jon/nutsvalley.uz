@@ -593,6 +593,7 @@
     }
     .products-page {
         &-additional-info {
+            margin-bottom: 0;
             .additional-info-cards {
                 grid-template-columns: repeat(1, 1fr);
                 grid-auto-rows: 0fr;
