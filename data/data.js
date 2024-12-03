@@ -139,6 +139,77 @@ export const productsData = {
             {
                 id: 1,
                 content: "nuts",
+                headerText: [
+                    "Looking for premium-quality nuts, straight from the source? MT FOODSTUFF TRADING offers a wide range of fresh, delicious nuts harvested from the fertile lands of Uzbekistan. Our nuts are renowned for their exceptional taste, nutritional value, and competitive prices.",
+                    "Whether you're a retailer, wholesaler, or individual buyer, we have the perfect solution for your nut needs.",
+                ],
+                additionalInfo: {
+                    // use this toll to change whole under products text https://python-fiddle.com/tools/markdown
+                    text: `
+## What is the best time to buy nuts in Uzbekistan?
+
+The best time to buy nuts in Uzbekistan is in **early October**, as this is when the harvest is complete, and the nuts are well-dried and ready for export.
+
+- **Harvest Period:** August to October.
+- **Drying Time:** Around 20 days post-harvest (e.g., walnuts harvested on August 20 will be export-ready by September 10).
+- **Buying Tip:** To secure the best quality, plan purchases around October 10, when most exporters have stock.
+
+
+**Refer to the calendar below for the harvest and buying periods of key products.**
+
+| Product          | Harvest Period      | Drying Period        | Best Buying Time After |
+|------------------|---------------------|----------------------|-------------------|
+| Peanuts          | Sept 20 – Oct 15  | Oct 5 – Oct 30       | October 30      |
+| Walnuts          | August 20–Sept 15 | Sept 15 – Oct 10         | October 10 |
+| Almonds          | July 25–August 10 | August 10–Aug 25       | Aug 25 |
+| Apricot Kernels | July 20–August 10 | August 1–August 20   | August 20 |
+| Sunflower seeds | July 25–August 10 | August 10 – September 1   | September 5 |
+
+
+
+**The calendar timeline is provided as an approximate guide. Factors such as climate changes and other unforeseen circumstances may cause variations in the indicated dates.*
+
+**NOTE: It’s also recommended to check the market situation 15 days before purchasing to gauge availability and prices for your desired product.**
+
+## How are nuts shipped from Uzbekistan?
+
+Shipping nuts from Uzbekistan involves a carefully managed process to ensure product quality, freshness, and compliance with international standards. Here's how it works:
+`,
+                    cards: [
+                        {
+                            title: "Preparation for Export:",
+                            body: `After the nuts are harvested and dried (typically August–October for most nuts like walnuts, almonds, and peanuts), they are sorted and graded based on size, quality, and type.
+
+High-quality export-ready nuts are cleaned, packaged, and sealed in food-grade materials to preserve freshness during transit.
+
+Some nuts, such as almonds or apricot kernels, may undergo additional processing (e.g., shelling or roasting) depending on client requirements.`,
+                        },
+                        {
+                            title: "Packaging",
+                            body: `Nuts are packed in vacuum-sealed bags or bulk packaging (e.g., 25-50 kg sacks or cartons) to maintain their shelf life.
+                            Packaging ensures the products are protected from humidity, contamination, and physical damage during transport.`,
+                        },
+                        {
+                            title: "Transport Routes",
+                            body: `**Road Transport:** Nuts are transported by trucks from Uzbekistan to the nearest seaports, such as Bandar Abbas (Iran) or Mersin (Turkey).
+
+**Sea Freight:** From these ports, shipments are loaded onto container ships for delivery to international markets, including the Middle East, Europe, and Asia.
+
+**Air Freight (Optional):** For urgent or high-value shipments, air freight is used, although it is less common due to higher costs.`,
+                        },
+                        {
+                            title: "Compliance with Export Regulations",
+                            body: `
+Each shipment undergoes quality inspections and is accompanied by necessary documentation, including phytosanitary certificates and certificates of origin, to meet importing country requirements.
+                            `,
+                        },
+                        {
+                            title: "Temperature-Controlled Shipping",
+                            body: `
+For some products (e.g., roasted nuts or sensitive items), temperature-controlled containers are used to prevent spoilage or degradation during long transits.`,
+                        },
+                    ],
+                },
                 pageTitle: "Supply nuts from Uzbekistan",
                 offerProducts: [
                     {
@@ -259,6 +330,44 @@ export const productsData = {
             {
                 id: 2,
                 content: "dried-fruits",
+                headerText: [
+                    "Searching for top-quality dried fruits from Uzbekistan? MT FOODSTUFF TRADING delivers a wide range of naturally dried fruits, including apricots, raisins, and prunes, known for their rich flavor, nutritional benefits, and unparalleled quality.",
+                    "Discover the true taste of Uzbekistan with our carefully harvested and expertly processed dried fruits.",
+                ],
+                additionalInfo: {
+                    // use this toll to change whole under products text https://python-fiddle.com/tools/markdown
+                    text: `## What is the Best-Selling Dried Fruit in Uzbekistan?
+Dried prunes with stones and Sultana raisins are the top-selling dried fruits from Uzbekistan. These two products are highly demanded in the Chinese and European markets, where they are widely used in confectionery production.
+
+## Why Are These Products Popular?
+
+- **Dried Prunes with Stones:** Known for their rich taste and long shelf life, they are preferred for snacks and baking.
+- **Sultana Raisins:** Seedless and naturally sweet, they are ideal for desserts and pastries, making them a staple in the confectionery industry.
+
+## What is the best time to export dried fruits from Uzbekistan?
+
+The best time to buy dried fruits in Uzbekistan is in mid September, as this is when the harvest is complete, and the dried fruits are well-dried and ready for export.
+- **Harvest Period:** July to August.
+- **Drying Time:** Around 15 days post-harvest (e.g., dried prunes harvested on August 20 will be export-ready by September 5).
+- **Buying Tip:** To secure the best quality, plan purchases around September 5, when most exporters have stock.
+
+Refer to the calendar below for the harvest and buying periods of key products.
+
+| Product          | Harvest Period      | Drying Period        | Best Buying Time After |
+|------------------|---------------------|----------------------|-------------------|
+| Dried prunes    | Aug 15 – Sept 25 | Sept 5 – Oct 10       | Sept 5     |
+| Dried apricots   | July 5 – July 25 | July 20 – Aug 10      | July 20 |
+| Golden raisins   | Aug 15 – Sept 20 | Sept 5 – Oct 10     | Sept 5 |
+| Sultana raisins   | Aug 15 – Sept 20 | Sept 5 – Oct 10     | Sept 5 |
+| Black raisins      | Aug 20 – Oct 5 | Sept 10 – Oct 15     | Sept 10 |
+| Compote mixture | July 5 – July 25 | July 20 – Aug 10      | July 20 |
+
+
+*The calendar timeline is provided as an approximate guide. Factors such as climate changes and other unforeseen circumstances may cause variations in the indicated dates.*
+
+**NOTE: It’s also recommended to check the market situation 15 days before purchasing to gauge availability and prices for your desired product.**`,
+                    cards: null,
+                },
                 pageTitle: "Export uzbek dried fruit wholesale",
                 offerProducts: [
                     {
@@ -350,6 +459,42 @@ export const productsData = {
             {
                 id: 3,
                 content: "beans",
+                headerText: [
+                    "Looking for premium-quality beans sourced directly from Uzbekistan? MT FOODSTUFF TRADING offers a diverse selection of fresh, high-grade beans, including chickpeas, kidney beans, and mung beans. Our beans are celebrated for their rich taste, exceptional quality, and competitive pricing.",
+                    "Experience the best of Uzbekistan’s agricultural heritage with our carefully sourced and expertly handled products.",
+                ],
+                additionalInfo: {
+                    // use this toll to change whole under products text https://python-fiddle.com/tools/markdown
+
+                    text: `## What are the seasons for legume products in Uzbekistan? 
+For kidney beans, there are two – 1) early season (June), 2) primary season (October). 
+For products like Green mung beans and chickpeas – only once. August – for chickpeas and October – for green mung beans. 
+
+## Are there any differences for kidney beans of early and primary seasons? 
+Yes, in size and color. Early kidney beans – which are ripen in June – tend to have lighter color and smaller size comparing to primary season, which is in October.
+
+## What is the best time for having contracts of export-import for legume products? 
+
+The best time to buy legumes in Uzbekistan is in mid-October, as this is when the harvest is complete, and the beans are well-dried and ready for export.
+- **Harvest Period:** July to October.
+- **Drying Time:** Around 20 days post-harvest (e.g., green mung beans harvested on September 15 will be export-ready by October 5).
+- **Buying Tip:** To secure the best quality, plan purchases around October 10, when most exporters have stock.
+
+Refer to the calendar below for the harvest and buying periods of key products.
+
+| Product          | Harvest Period      | Drying Period        | Best Buying Time Around |
+|------------------|---------------------|----------------------|-------------------|
+| Kidney beans    | Sept 20 – Oct 15 | Oct 5 – Oct 30       | Oct 5      |
+| Green mung beans | Sept 20 – Oct 15 | Oct 5 – Nov 1   | October 5 |
+| Chickpeas         | June 25 – July 10 | July 15– Aug 25       | July 15 |
+
+*The calendar timeline is provided as an approximate guide. Factors such as climate changes and other unforeseen circumstances may cause variations in the indicated dates.*
+
+**NOTE: It’s also recommended to check the market situation 15 days before purchasing to gauge availability and prices for your desired product.**`,
+
+                    cards: null,
+                },
+
                 pageTitle: "Beans from Uzbekistan",
                 offerProducts: [
                     {
@@ -415,6 +560,52 @@ export const productsData = {
             {
                 id: 1,
                 content: "nuts",
+                headerText: [
+                    "Ищете орехи премиального качества прямо от производителя? MT FOODSTUFF TRADING предлагает широкий ассортимент свежих, вкусных орехов, собранных на плодородных землях Узбекистана. Наши орехи известны своим исключительным вкусом, питательной ценностью и конкурентными ценами.",
+                    "Будь вы ритейлер, оптовик или частный покупатель, у нас есть идеальные решения для ваших нужд.",
+                ],
+                additionalInfo: {
+                    text: `## Какое лучшее время для покупки орехов в Узбекистане?
+
+**Лучшее время для покупки орехов в Узбекистане — начало октября,** так как к этому времени сбор урожая завершен, а орехи хорошо просушены и готовы к экспорту.
+
+- **Период сбора урожая:** с августа по октябрь.
+- **Время сушки: **около 20 дней после сбора урожая (например, грецкие орехи, собранные 20 августа, будут готовы к экспорту к 10 сентября).
+- **Совет по покупке:** чтобы получить продукцию наилучшего качества, планируйте покупку около 10 октября, когда у большинства экспортеров есть запасы.
+
+Смотрите календарь ниже, чтобы узнать периоды сбора и покупки основных продуктов.
+
+| Продукт           | Период сбора урожая | Время сушки       | Лучшее время для покупки |
+|-------------------|---------------------|-------------------|--------------------------|
+| Арахис           | 20 сентября – 15 октября | 5 октября – 30 октября | 30 октября |
+| Грецкие орехи    | 20 августа – 15 сентября | 15 сентября – 10 октября | 10 октября |
+| Миндаль          | 25 июля – 10 августа | 10 августа – 25 августа | 25 августа |
+| Абрикосовые ядра | 20 июля – 10 августа | 1 августа – 20 августа  | 20 августа |
+| Семена подсолнечника | 25 июля – 10 августа | 10 августа – 1 сентября | 5 сентября |
+
+**Календарь предоставлен как ориентировочное руководство. **Климатические изменения и другие непредвиденные обстоятельства могут повлиять на указанные даты.
+Также рекомендуется уточнить рыночную ситуацию за 15 дней до покупки, чтобы оценить доступность и цены на нужный вам продукт.
+
+## Как осуществляются поставки орехов из Узбекистана?
+
+**Процесс доставки орехов из Узбекистана тщательно организован,** чтобы обеспечить качество продукции, свежесть и соответствие международным стандартам.
+
+1. ****: 
+2. **Упаковка**: вакуумные пакеты или мешки объемом 25–50 кг защищают продукцию от влаги и повреждений.
+3. **Транспортировка**:
+   - **Автомобильный транспорт**: доставка до ближайших портов (Бендер-Аббас или Мерсин).
+   - **Морской фрахт**: доставка международным покупателям.
+   - **Авиаперевозки (опционально)**: для срочных поставок.
+4. **Соблюдение стандартов**: все поставки проходят проверку качества и сопровождаются необходимыми документами.
+`,
+                    cards: [
+                        {
+                            title: "Подготовка к экспорту",
+                            body: `После сбора и сушки орехи сортируются и упаковываются в пищевые материалы, сохраняющие свежесть.`,
+                        },
+                    ],
+                },
+
                 pageTitle: "Поставка узбекских орехов от производителя",
                 offerProducts: [
                     {
@@ -535,6 +726,14 @@ export const productsData = {
             {
                 id: 2,
                 content: "dried-fruits",
+                headerText: [
+                    "Ищете сухофрукты премиального качества из Узбекистана? MT FOODSTUFF TRADING предлагает широкий ассортимент натуральных сухофруктов, включая абрикосы, изюм и чернослив. Наши сухофрукты известны своим насыщенным вкусом, высокой питательной ценностью и непревзойденным качеством.",
+                    "Откройте для себя истинный вкус Узбекистана с нашими тщательно собранными и профессионально обработанными сухофруктами.",
+                ],
+                additionalInfo: {
+                    text: ``,
+                    cards: null,
+                },
                 pageTitle: "Поставка узбекских сухофруктов",
                 offerProducts: [
                     {
@@ -626,6 +825,13 @@ export const productsData = {
             {
                 id: 3,
                 content: "beans",
+                headerText: [
+                    "Ищете бобовые премиального качества? MT FOODSTUFF TRADING предлагает широкий выбор свежих, качественных бобовых, включая нут, фасоль и маш. Эти продукты ценятся за их богатый вкус, высокое качество и конкурентные цены.",
+                ],
+                additionalInfo: {
+                    text: ``,
+                    cards: null,
+                },
                 pageTitle: "Экспорт узбекских бобовых культур",
                 offerProducts: [
                     {

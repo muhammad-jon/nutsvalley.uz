@@ -12,6 +12,7 @@ import Loading from "components/Loading";
 import { productsData, productsMetaSEO } from "data/data";
 import { useGlobalContext } from "context/context";
 import Script from "next/script";
+import Markdown from "markdown-to-jsx";
 
 function Index({
     id,
@@ -22,7 +23,10 @@ function Index({
     productsRowNames,
     data,
 }) {
-    const { pageTitle, products, offerProducts } = data;
+    console.log(data);
+
+    const { pageTitle, products, offerProducts, headerText, additionalInfo } =
+        data;
     const { loadingProducts, setLoadingProducts } = useGlobalContext();
 
     const basicSeo = metaSEO.productsType.filter(
@@ -84,6 +88,14 @@ function Index({
                                     priority
                                 />
                             </div>
+                        </div>
+                    </div>
+                    <div className="container">
+                        <div className="products-page-top-text">
+                            {headerText &&
+                                headerText.map((el, i) => {
+                                    return <p key={i}>{el}</p>;
+                                })}
                         </div>
                     </div>
                     <div className="container">
@@ -160,6 +172,28 @@ function Index({
                                 </div>
                             </div>
                         ))}
+                    </div>
+                    <div className="container">
+                        <div className="products-page-additional-info">
+                            <Markdown>{additionalInfo.text}</Markdown>
+                            {additionalInfo.cards && (
+                                <div className="additional-info-cards">
+                                    {additionalInfo.cards?.map((el, i) => {
+                                        return (
+                                            <div
+                                                className="additional-info-card"
+                                                key={i}
+                                            >
+                                                <h3>
+                                                    {i + 1}. {el.title}
+                                                </h3>
+                                                <Markdown>{el.body}</Markdown>
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            )}
+                        </div>
                     </div>
                     <WeOffer offerProducts={offerProducts} />
                 </section>
