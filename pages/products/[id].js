@@ -23,8 +23,6 @@ function Index({
     productsRowNames,
     data,
 }) {
-    console.log(data);
-
     const { pageTitle, products, offerProducts, headerText, additionalInfo } =
         data;
     const { loadingProducts, setLoadingProducts } = useGlobalContext();

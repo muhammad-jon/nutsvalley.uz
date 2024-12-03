@@ -48,7 +48,6 @@ const Faq = () => {
 
     function rememberedScroll() {
         Cookies.set("page-scroll", Math.floor(window.pageYOffset));
-        console.log("reme", window.pageYOffset);
     }
 
     return (
@@ -71,6 +70,19 @@ const Faq = () => {
                                 />
                             ))}
                         </div>
+                        <div className="faq__links">
+                            <Link
+                                href="/faq-knowledge-export-business-uzbekistan"
+                                offset={-150}
+                            >
+                                <a
+                                    onClick={rememberedScroll}
+                                    className="faq__link"
+                                >
+                                    {faqLink}
+                                </a>
+                            </Link>
+                        </div>
                     </div>
                     <div className="faq__right">
                         <Image
@@ -84,6 +96,7 @@ const Faq = () => {
                     </div>
                 </div>
             </div>
+
             <div className="faq__bg">
                 <div
                     style={{
@@ -101,16 +114,6 @@ const Faq = () => {
                         priority
                     />
                 </div>
-            </div>
-            <div className="faq__links">
-                <Link
-                    href="/faq-knowledge-export-business-uzbekistan"
-                    offset={-150}
-                >
-                    <a onClick={rememberedScroll} className="faq__link">
-                        {faqLink}
-                    </a>
-                </Link>
             </div>
         </section>
     );
