@@ -5,7 +5,7 @@ export const productsMetaSEO = {
         productsType: [
             {
                 content: "nuts",
-                title: "https://mt-food.uz/en/products/nuts - Nuts wholesale export best prices from from Uzbekistan",
+                title: "Mt-food.uz - Nuts wholesale export best prices from from Uzbekistan",
                 description:
                     "Nuts in assortment from Uzbekistan wholesale. A quality product with a guarantee. Delivery on time. Read more on the website",
                 metas: [{}],
@@ -30,14 +30,14 @@ export const productsMetaSEO = {
         productsType: [
             {
                 content: "nuts",
-                title: "https://mt-food.uz/products/nuts - Орехи оптом экспорт от производителя оптом из Узбекистана",
+                title: "Mt-food.uz - Орехи оптом экспорт от производителя оптом из Узбекистана",
                 description:
                     "Орехи в ассортименте из Узбекистана оптом. Качественный товар с гарантией. Доставка точно в срок. Подробнее на сайте",
                 metas: [{}],
             },
             {
                 content: "dried-fruits",
-                title: "https://mt-food.uz/products/dried-fruits - Поставка сухофруктов от узбекского производителя оптом",
+                title: "Mt-food.uz - Поставка сухофруктов от узбекского производителя оптом",
                 description:
                     "Сухофрукты высокого качества из Узбекистана. Своевременная доставка. Гарантия на продукцию. Весь ассортимент можно посмотреть на сайте",
                 metas: [{}],
@@ -58,13 +58,13 @@ export const homeMetaSEO = {
         description:
             "Nuts, dried fruits and legumes from Uzbekistan. A quality product with a guarantee. Delivery on time. You can order from our website",
         metas: [{}],
-        title: "https://mt-food.uz/en - Dried fruits, nuts and legumes exporter from Uzbekistan",
+        title: "Mt-food.uz - Dried fruits, nuts and legumes exporter from Uzbekistan",
     },
     ru: {
         description:
             "Орехи, сухофрукты и бобовые из Узбекистана. Качественный товар с гарантией. Доставка точно в срок. Заказать можно у нас на сайте.",
         metas: [{}],
-        title: "https://mt-food.uz/ - Опытный экспортер сухофруктов, орехов и бобовые Узбекистана",
+        title: "Mt-food.uz - Опытный экспортер сухофруктов, орехов и бобовые Узбекистана",
     },
 };
 export const headerData = {
