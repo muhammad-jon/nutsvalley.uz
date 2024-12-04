@@ -231,8 +231,8 @@ For some products (e.g., roasted nuts or sensitive items), temperature-controlle
                         description:
                             "The product is available in any caliber, has a humidity of up to 9-11%.",
                         type: "Nuts",
-                        packaging: "In bags, In cardboard boxes",
-                        caliber: "Any",
+                        packaging: "In PP bags, In carton boxes",
+                        caliber: "38/42, 50/60, 60/70 (5мм+, 6мм+, 7мм+)",
                         imageSrc: "Peanuts-karnel.png",
                     },
                     {
@@ -240,7 +240,7 @@ For some products (e.g., roasted nuts or sensitive items), temperature-controlle
                         description:
                             "Calibers from 2roomed and above are available. The product is divided into the highest and first quality based on the weight and color of the shell.",
                         type: "Nuts",
-                        packaging: "In cardboard boxes",
+                        packaging: "In carton boxes",
                         caliber: "2+",
                         imageSrc: "Peanuts-in-shell.png",
                     },
@@ -249,7 +249,7 @@ For some products (e.g., roasted nuts or sensitive items), temperature-controlle
                         description:
                             "Calibers from 5 and above are available — we deliver in special hard boxes to avoid damage to the products.",
                         type: "Nuts",
-                        packaging: "In cardboard boxes",
+                        packaging: "In carton boxes",
                         caliber: "5+/6+/7+",
                         imageSrc: "Blanched-peanuts-kernel.png",
                     },
@@ -258,34 +258,34 @@ For some products (e.g., roasted nuts or sensitive items), temperature-controlle
                         description:
                             "Salted peanuts are delivered without peel — some kernels are divided into two parts due to the influence of the cleaning process.",
                         type: "Nuts",
-                        packaging: "In cardboard boxes",
+                        packaging: "In carton boxes",
                         caliber: "Split, 5+/6+/7+",
                         imageSrc: "Salted-peanuts-without-peel.png",
                     },
                     {
                         title: "Roasted peanut kernel",
                         description:
-                            "Roasted peanut kernels are available in calibers 5+/6+/7+ . For convenience, we deliver in cardboard boxes.",
+                            "Roasted peanut kernels are available in calibers 5+/6+/7+ . For convenience, we deliver In carton boxes.",
                         type: "Nuts",
-                        packaging: "In cardboard boxes",
+                        packaging: "In carton boxes",
                         caliber: "5+/6+/7+",
                         imageSrc: "Roasted-peanut-kernel.png",
                     },
                     {
                         title: "Peanuts in sugar",
                         description:
-                            "Covered with a sugar layer of peanuts of 5+ caliber. Delivery is carried out In cardboard boxes.",
+                            "Covered with a sugar layer of peanuts of 5+ caliber. Delivery is carried out In carton boxes.",
                         type: "Nuts",
-                        packaging: "In cardboard boxes",
+                        packaging: "In carton boxes",
                         caliber: "5+",
                         imageSrc: "Peanuts-in-sugar.png",
                     },
                     {
                         title: "Peanuts in sesame",
                         description:
-                            "The similar caliber of peanuts in sesame is 5+. It is also delivered In cardboard boxes for the sake of preserving the presentative form.",
+                            "The similar caliber of peanuts in sesame is 5+. It is also delivered In carton boxes for the sake of preserving the presentative form.",
                         type: "Nuts",
-                        packaging: "In cardboard boxes",
+                        packaging: "In carton boxes",
                         caliber: "5+",
                         imageSrc: "Peanuts-in-sesame.png",
                     },
@@ -294,7 +294,7 @@ For some products (e.g., roasted nuts or sensitive items), temperature-controlle
                         description:
                             "Three product types are available — light, yellow and amber. At the discretion of the client, we select the percentage of the butterfly fraction. Carefully monitor the humidity.",
                         type: "Nuts",
-                        packaging: "In cardboard boxes",
+                        packaging: "In carton boxes",
                         caliber: "",
                         imageSrc: "Greek-nuts-kernel-light.png",
                     },
@@ -303,17 +303,17 @@ For some products (e.g., roasted nuts or sensitive items), temperature-controlle
                         description:
                             "Several sizes are available: 10-15 mm, 15-20 mm and 20-24 mm. There is also a division by taste - we supply both bitter and sweet almonds.",
                         type: "Nuts",
-                        packaging: "In cardboard boxes",
+                        packaging: "In carton boxes",
                         caliber: "10-15mm, 15-20mm, 20-24mm",
                         imageSrc: "Almond-kernel.png",
                     },
                     {
                         title: "Sunflower seeds white",
                         description:
-                            "All sunflower seeds in our assortment are produced in Uzbekistan. Hybrid and Tashkent varieties are available.",
+                            "All sunflower seeds in our assortment are produced in Uzbekistan. Angren, Tashkent Hybrid and Tashkent varieties are available.",
                         type: "Nuts",
-                        packaging: "In bags",
-                        caliber: "2mm+",
+                        packaging: "In PP bags",
+                        caliber: "2mm+, 3mm+, 4mm+, 5mm+, 6mm+, 7mm+",
                         imageSrc: "Sunflower-seeds-white.png",
                     },
                     {
@@ -321,18 +321,18 @@ For some products (e.g., roasted nuts or sensitive items), temperature-controlle
                         description:
                             "We provide the most favorable prices for high-quality striped sunflower seeds.",
                         type: "Nuts",
-                        packaging: "In bags, In cardboard boxes",
-                        caliber: "2mm+",
+                        packaging: "In PP bags",
+                        caliber: "2mm+, 4mm+, 6mm+, 7mm+, 8mm+, 9mm+",
                         imageSrc: "Sunflower-seeds-striped.png",
                     },
                     {
-                        title: "Dried arpricot kernel",
+                        title: "Apricot kernel",
                         description:
                             "We offer the highest quality apricot kernels, carefully selected and processed to preserve their natural goodness.",
-                        type: "Nuts",
-                        packaging: "In bags",
+                        type: "Dried fruits",
+                        packaging: "In PP bags",
                         caliber: null,
-                        typeOfDrying: "Sulfurized and Sun-Dried",
+                        typeOfDrying: "Sun-Dried and SO2",
                         imageSrc: "Drie-arpricot-kernel.png",
                     },
                 ],
@@ -399,9 +399,9 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "We offer a wide selection of prunes both in shape and structure: with and without pits, spherical or flat.",
                         type: "Dried fruits",
-                        packaging: "In bags, In cardboard boxes",
-                        caliber: "70/80pcs",
-                        humidity: "up to 22, up to 26%",
+                        packaging: "In carton boxes",
+                        caliber: "70/80pcs, 80/90pcs, 90/100pcs, 100/110pcs",
+                        humidity: "up to 22 and up to 26%",
                         imageSrc: "Prunes-Hungarian.png",
                     },
                     {
@@ -409,9 +409,9 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "This variety of prunes is larger, but more sour than Hungarian. The Spaniard is also available both with and without bones.",
                         type: "Dried fruits",
-                        packaging: "In cardboard boxes",
-                        caliber: "50/60pcs",
-                        humidity: "up to 22, up to 26%",
+                        packaging: "In carton boxes",
+                        caliber: "50/60pcs, 60/70pcs, 70/80pcs",
+                        humidity: "up to 22 and up to 26%",
                         imageSrc: "Prunes-Spaniard.png",
                     },
                     {
@@ -419,7 +419,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "There is a wide selection of varieties: Subhan, Organic, Boat, Cut and Industrial. The product is suitable for both direct sale and confectionery purposes. It is possible to select the desired humidity and caliber.",
                         type: "Dried fruits",
-                        packaging: "In cardboard boxes",
+                        packaging: "In carton boxes",
                         caliber: "100-220pcs",
                         humidity: "24%",
                         imageSrc: "Dried-apricots.png",
@@ -429,7 +429,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "Golden-colored raisins of the Golden variety are available to order with an accurate calculation of the number of units of the product in 100 grams of weight.",
                         type: "Dried fruits",
-                        packaging: "In cardboard boxes",
+                        packaging: "In carton boxes",
                         caliber: "100-220pcs",
                         humidity: "13% max",
                         imageSrc: "Raisin-golden.png",
@@ -439,17 +439,17 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "Soft and delicate raisins dried in the shade attracts consumers with an exquisite taste. An accurate calculation of product units in 100 grams of weight is also available.",
                         type: "Dried fruits",
-                        packaging: "In cardboard boxes",
+                        packaging: "In carton boxes",
                         caliber: "80-200pcs",
                         humidity: "13% max",
                         imageSrc: "Raisin-black-Soyaki.png",
                     },
                     {
-                        title: "Raisin black Kunaki",
+                        title: "Raisin brown Sultana",
                         description:
                             "This variety, unlike Soyaki, is dried in the sun - therefore, it is slightly tougher. An accurate calculation of product units in 100 grams of weight is also available.",
                         type: "Dried fruits",
-                        packaging: "In cardboard boxes",
+                        packaging: "In carton boxes",
                         caliber: "180-260pcs",
                         humidity: "13% max",
                         imageSrc: "Raisin-black-Kunaki.png",
@@ -459,7 +459,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "Assorted various dried fruits for the production of natural drinks. We discuss the quantity and types of fruits before ordering.",
                         type: "Dried fruits",
-                        packaging: "In bags",
+                        packaging: "In PP bags",
                         caliber: "",
                         humidity: "",
                         imageSrc: "Compote-mixture.png",
@@ -521,22 +521,22 @@ Refer to the calendar below for the harvest and buying periods of key products.
                 ],
                 products: [
                     {
-                        title: "Purple speckled kidney beans",
+                        title: "Purple speckled kidney beans (PSKB)",
                         description:
                             "A vibrant and flavorful legume with a rich, earthy taste. These beans are prized for their striking purple speckled color and their ability to add a touch of elegance to any dish. They are ideal for soups, stews, salads, and chili.",
                         type: "Legumes",
-                        packaging: "In bags",
+                        packaging: "In PP bags",
                         caliber: null,
                         imageSrc: "Purple-speckled-kidney-beans.png",
                         humidity: "",
                         pcsPer100gr: "150-160, 160-180, 180-200",
                     },
                     {
-                        title: "Light speckled kidney beans",
+                        title: "Light speckled kidney beans (LSKB)",
                         description:
                             "A versatile legume with a mild, slightly sweet flavor. These beans are known for their beautiful speckled appearance, ranging from light brown to creamy white. They are perfect for soups, stews, salads, and side dishes.",
                         type: "Legumes",
-                        packaging: "In bags",
+                        packaging: "In PP bags",
                         caliber: null,
                         imageSrc: "Light-speckled-kidney-beans.png",
                         humidity: "",
@@ -547,7 +547,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "A nutritious and hearty legume with a subtle, nutty flavor. These beans are a popular choice for Southern cuisine, often used in dishes like Hoppin' John and black-eyed pea salad. They are a good source of fiber and protein and can be enjoyed in a variety of ways.",
                         type: "Nuts",
-                        packaging: "In bags",
+                        packaging: "In PP bags",
                         caliber: null,
                         imageSrc: "Black-eyed-beans.png",
                         humidity: "",
@@ -558,7 +558,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "This product is divided by type of cleaning and caliber. Available calibers: from 2.8mm to 3.5+mm. The cleaning methods used are sortex cleaning, machine cleaning and polished.",
                         type: "Legumes",
-                        packaging: "In bags",
+                        packaging: "In PP bags",
                         caliber: "2.8+, 3+, 3.2+, 3.5+",
                         imageSrc: "Green-mung-beans.png",
                         humidity: "",
@@ -569,7 +569,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                             "Only raw chickpeas are available. Wide choice of caliber - from 4 mm+ to 10+ mm.",
                         type: "Legumes",
                         caliber: "4mm+ - 10mm+",
-                        packaging: "In bags",
+                        packaging: "In PP bags",
                         imageSrc: "Chickpeas.png",
                         humidity: "",
                     },
@@ -635,7 +635,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         {
                             title: "Упаковка:",
                             body: `
-Вакуумные пакеты или мешки объемом 25–50 кг защищают продукцию от влаги и повреждений.`,
+Вакуумные пакеты или ПП мешки объемом 25–50 кг защищают продукцию от влаги и повреждений.`,
                         },
                         {
                             title: "Транспортировка:",
@@ -673,8 +673,8 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "Продукт доступен в любом калибре, обладает влажностью до 9-11%.",
                         type: "Орехи",
-                        packaging: "Мешки, Картонная коробка",
-                        caliber: "Любой",
+                        packaging: "ПП мешки, Картонная коробка",
+                        caliber: "38/42, 50/60, 60/70 (5мм+, 6мм+, 7мм+)",
                         imageSrc: "Peanuts-karnel.png",
                     },
                     {
@@ -682,7 +682,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "Доступны калибры от 2комнатные и выше. Продукт поделен на высший и первый сорта на основании веса и цвета скорлупы.",
                         type: "Орехи",
-                        packaging: "Мешки",
+                        packaging: "ПП мешки",
                         caliber: "2комнатные+",
                         imageSrc: "Peanuts-in-shell.png",
                     },
@@ -736,7 +736,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "Доступны три типа продукта — светлые, желтые и янтарные.  На усмотрение клиента подбираем процент фракции бабочки. Внимательно следим за влажностью. ",
                         type: "Орехи",
-                        packaging: "Мешки, Картонная коробка",
+                        packaging: "ПП мешки, Картонная коробка",
                         caliber: "",
                         imageSrc: "Greek-nuts-kernel-light.png",
                     },
@@ -745,17 +745,17 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "Доступно несколько размеров: 10-15 мм, 15-20 мм и 20-24 мм. Также есть разделение по вкусу — поставляем и горький,  и сладкий миндаль.",
                         type: "Орехи",
-                        packaging: "Мешки, Картонная коробка",
+                        packaging: "ПП мешки, Картонная коробка",
                         caliber: "10-15мм, 15-20мм, 20-24мм",
                         imageSrc: "Almond-kernel.png",
                     },
                     {
                         title: "Белые семечки",
                         description:
-                            "Все подсолнечные семечки в нашем ассортименте произведены в Узбекистане. Доступны сорта Гибрид и Ташкент.",
+                            "Все подсолнечные семечки в нашем ассортименте произведены в Узбекистане. Доступны сорта Ангрен, Ташкент Гибрид, и Ташкент.",
                         type: "Орехи",
-                        packaging: "Мешки, Картонная коробка",
-                        caliber: "2мм+",
+                        packaging: "ПП мешки, Картонная коробка",
+                        caliber: "2мм+, 3мм+, 4мм+, 5мм+, 6мм+, 7мм+",
                         imageSrc: "Sunflower-seeds-white.png",
                     },
                     {
@@ -763,18 +763,18 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "Предоставляем самые выгодные цены на качественные полосатые семечки подсолнуха.",
                         type: "Орехи",
-                        packaging: "Мешки, Картонная коробка",
-                        caliber: "2мм+",
+                        packaging: "ПП Мешки",
+                        caliber: "2mm+, 4mm+, 6mm+, 7mm+, 8mm+, 9mm+",
                         imageSrc: "Sunflower-seeds-striped.png",
                     },
                     {
-                        title: "Сухие ядра абрикоса",
+                        title: "Ядра абрикоса",
                         description:
                             "Мы предлагаем ядра абрикоса высшего качества, тщательно отобранные и обработанные для сохранения их натуральной пользы.",
-                        type: "Орехи",
-                        packaging: "Мешки",
+                        type: "Сухофрукты",
+                        packaging: "ПП мешки",
                         caliber: null,
-                        typeOfDrying: "Сернистая сушка и солнечная сушка",
+                        typeOfDrying: "Сушка под солнце и SO2",
                         imageSrc: "Drie-arpricot-kernel.png",
                     },
                 ],
@@ -788,7 +788,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                 ],
                 additionalInfo: {
                     // use this toll to change whole products text down below https://python-fiddle.com/tools/markdown
-                    text: `## Какой сухофрукт является самым популярным в Узбекистане?
+                    text: `## Какой сухофрукт является самым популярным в Узбекистане для экспорта?
 
 Чернослив с косточкой и изюм сорта Султана — самые популярные сухофрукты, экспортируемые из Узбекистана. Эти два продукта пользуются высоким спросом на рынках Китая и Европы, где они активно используются в производстве кондитерских изделий.
 Почему эти продукты популярны?
@@ -842,8 +842,8 @@ Refer to the calendar below for the harvest and buying periods of key products.
                             "Предлагаем широкий выбор чернослива как по форме, так и по строению: с косточками и без, сферообразные или плоские.",
                         type: "Сухофрукты",
                         packaging: "Картонная коробка",
-                        caliber: "70/80шт",
-                        humidity: "до 22%, до 28%",
+                        caliber: "70/80шт, 80/90шт, 90/100шт, 100/110шт",
+                        humidity: "до 22% и до 28%",
                         imageSrc: "Prunes-Hungarian.png",
                     },
                     {
@@ -852,8 +852,8 @@ Refer to the calendar below for the harvest and buying periods of key products.
                             "Данный сорт чернослива больше, но кислее, чем Венгерка. Испанка тоже доступна как с косточками, так и без них. ",
                         type: "Сухофрукты",
                         packaging: "Картонная коробка",
-                        caliber: "50/60шт",
-                        humidity: "до 22%, до 28%",
+                        caliber: "50/60шт, 60/70шт, 70/80шт",
+                        humidity: "до 22% и до 28%",
                         imageSrc: "Prunes-Spaniard.png",
                     },
                     {
@@ -887,7 +887,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         imageSrc: "Raisin-black-Soyaki.png",
                     },
                     {
-                        title: "Черный изюм Кунаки",
+                        title: "Изюм коричневый Султана",
                         description:
                             "Данный сорт, в отличии от Сояки высушен на солнце — поэтому, он слегка жестче. Также доступен точный расчет единиц продукта в 100 граммах веса.",
                         type: "Сухофрукты",
@@ -901,7 +901,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "Ассорти из различных сухофруктов для изготовления натуральных напитков. Обговариваем количество и виды фруктов перед заказом.",
                         type: "Сухофрукты",
-                        packaging: "Мешки",
+                        packaging: "ПП мешки",
                         caliber: "",
                         humidity: "",
                         imageSrc: "Compote-mixture.png",
@@ -966,22 +966,22 @@ Refer to the calendar below for the harvest and buying periods of key products.
                 ],
                 products: [
                     {
-                        title: "Фиолетовые пятнистые фасольки",
+                        title: "Королевская фасоль (PSKB)",
                         description:
                             "Яркий и ароматный бобовый продукт с насыщенным, землистым вкусом. Эти фасольки ценятся за их выразительный фиолетовый окрас с пятнами и способность придавать элегантность любому блюду. Идеальны для супов, рагу, салатов и чили.",
                         type: "Бобовые",
-                        packaging: "Мешки",
+                        packaging: "ПП мешки",
                         caliber: null,
                         imageSrc: "Purple-speckled-kidney-beans.png",
                         humidity: "",
                         pcsPer100gr: "150-160, 160-180, 180-200",
                     },
                     {
-                        title: "Светлые пятнистые фасольки",
+                        title: "Фасоль рябая (LSKB)",
                         description:
                             "Универсальная бобовая культура с мягким, слегка сладким вкусом. Эти фасольки известны своим красивым пятнистым видом, от светло-коричневого до кремово-белого. Отлично подходят для супов, рагу, салатов и гарниров.",
                         type: "Бобовые",
-                        packaging: "Мешки",
+                        packaging: "ПП мешки",
                         caliber: null,
                         imageSrc: "Light-speckled-kidney-beans.png",
                         humidity: "",
@@ -992,7 +992,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "Питательная и сытная бобовая культура с тонким, ореховым вкусом. Эти фасольки популярны в южной кухне, часто используются в таких блюдах, как Hoppin' John и салат из чёрноглазых бобов. Хороший источник клетчатки и белка, и могут быть использованы в различных блюдах.",
                         type: "Орехи",
-                        packaging: "Мешки",
+                        packaging: "ПП мешки",
                         caliber: null,
                         imageSrc: "Black-eyed-beans.png",
                         humidity: "",
@@ -1003,7 +1003,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "Данный продукт разделяется по типа очистки и калибру. Доступные калибры: от 2.8 мм до 3,5+ мм. Используемые способы очистки — sortex cleaning, machine cleaning и polished.",
                         type: "Бобовые",
-                        packaging: "Мешки",
+                        packaging: "ПП мешки",
                         caliber: "2.8+, 3+, 3.2+, 3.5+",
                         imageSrc: "Green-mung-beans.png",
                         humidity: "",
@@ -1013,7 +1013,7 @@ Refer to the calendar below for the harvest and buying periods of key products.
                         description:
                             "Доступен только сырой нут. Широкий выбор калибра — от 4 мм+ до 10+ мм.",
                         type: "Бобовые",
-                        packaging: "Мешки",
+                        packaging: "ПП мешки",
                         caliber: "от 4 мм+ до 10 мм+",
                         imageSrc: "Chickpeas.png",
                         humidity: "",
